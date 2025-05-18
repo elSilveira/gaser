@@ -133,35 +133,32 @@ document.addEventListener('DOMContentLoaded', function() {
             // Se a API estiver online, carregar dados iniciais
             if (status.status === 'online') {
                 console.log('API online, carregando dados iniciais...');
+                
+                // Carregar dados apenas quando o usuário clicar em "Aplicar Filtros"
+                // Não carregamos automaticamente para evitar movimentação do mapa
+                
+                // Mostrar mensagem inicial
+                const stationsList = document.getElementById('stations-list');
+                if (stationsList) {
+                    stationsList.innerHTML = '<div class="initial-message"><p>Selecione os filtros desejados e clique em "Aplicar Filtros" para buscar postos próximos.</p><p>Ou use a barra de busca para encontrar postos em uma localidade específica.</p></div>';
+                }
             } else {
                 console.warn('API offline ou com problemas, usando dados simulados...');
                 
-                // Forçar carregamento de dados simulados
-                const lat = -23.5505;
-                const lon = -46.6333;
-                mapManager.map.setView([lat, lon], 13);
-                
-                // Carregar postos simulados
-                setTimeout(() => {
-                    const postos = dadosSimulados.gerarPostosSimulados(lat, lon, 30);
-                    mapManager.addStations(postos, true);
-                    mapManager.updateStationsList(postos, true);
-                }, 1000);
+                // Mostrar mensagem inicial
+                const stationsList = document.getElementById('stations-list');
+                if (stationsList) {
+                    stationsList.innerHTML = '<div class="initial-message"><p>Selecione os filtros desejados e clique em "Aplicar Filtros" para buscar postos próximos.</p><p>Ou use a barra de busca para encontrar postos em uma localidade específica.</p></div>';
+                }
             }
         })
         .catch(error => {
             console.error('Erro ao verificar status da API:', error);
             
-            // Forçar carregamento de dados simulados em caso de erro
-            const lat = -23.5505;
-            const lon = -46.6333;
-            mapManager.map.setView([lat, lon], 13);
-            
-            // Carregar postos simulados
-            setTimeout(() => {
-                const postos = dadosSimulados.gerarPostosSimulados(lat, lon, 30);
-                mapManager.addStations(postos, true);
-                mapManager.updateStationsList(postos, true);
-            }, 1000);
+            // Mostrar mensagem inicial
+            const stationsList = document.getElementById('stations-list');
+            if (stationsList) {
+                stationsList.innerHTML = '<div class="initial-message"><p>Selecione os filtros desejados e clique em "Aplicar Filtros" para buscar postos próximos.</p><p>Ou use a barra de busca para encontrar postos em uma localidade específica.</p></div>';
+            }
         });
 });
