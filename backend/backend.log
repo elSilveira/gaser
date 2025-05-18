@@ -27,3 +27,1237 @@
 2025-05-18 04:28:22,777 - werkzeug - INFO - 10.130.234.1 - - [18/May/2025 04:28:22] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
 2025-05-18 04:29:32,179 - werkzeug - INFO - 10.130.234.1 - - [18/May/2025 04:29:32] "HEAD / HTTP/1.1" 200 -
 2025-05-18 04:29:32,201 - werkzeug - INFO - 10.130.234.1 - - [18/May/2025 04:29:32] "GET / HTTP/1.1" 200 -
+2025-05-18 05:36:09,935 - backend_flask - ERROR - Erro ao carregar KD-Tree: No module named 'numpy._core'
+2025-05-18 05:36:09,936 - backend_flask - INFO - Cache inicializado com 5009 postos
+2025-05-18 05:36:10,017 - backend_flask - ERROR - Erro ao carregar KD-Tree: No module named 'numpy._core'
+2025-05-18 05:36:10,018 - backend_flask - INFO - Cache inicializado com 5009 postos
+2025-05-18 05:36:10,074 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.68.55:5000
+2025-05-18 05:36:10,074 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-18 05:36:10,078 - werkzeug - INFO -  * Restarting with stat
+2025-05-18 05:36:10,787 - backend_flask - ERROR - Erro ao carregar KD-Tree: No module named 'numpy._core'
+2025-05-18 05:36:10,788 - backend_flask - INFO - Cache inicializado com 5009 postos
+2025-05-18 05:36:10,861 - backend_flask - ERROR - Erro ao carregar KD-Tree: No module named 'numpy._core'
+2025-05-18 05:36:10,862 - backend_flask - INFO - Cache inicializado com 5009 postos
+2025-05-18 05:36:10,882 - werkzeug - WARNING -  * Debugger is active!
+2025-05-18 05:36:10,891 - werkzeug - INFO -  * Debugger PIN: 145-227-398
+2025-05-18 05:36:17,222 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:17] "GET / HTTP/1.1" 200 -
+2025-05-18 05:36:17,261 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:17] "GET /css/styles.css HTTP/1.1" 200 -
+2025-05-18 05:36:17,419 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:17] "GET /css/markers.css HTTP/1.1" 200 -
+2025-05-18 05:36:17,554 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:17] "[33mGET /js/dados_simulados.js HTTP/1.1[0m" 404 -
+2025-05-18 05:36:17,587 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:17] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:36:17,589 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:17] "GET /js/map.js HTTP/1.1" 200 -
+2025-05-18 05:36:17,595 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:17] "GET /js/api.js HTTP/1.1" 200 -
+2025-05-18 05:36:17,599 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:17] "GET /js/app.js HTTP/1.1" 200 -
+2025-05-18 05:36:17,727 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:17] "GET /api/status HTTP/1.1" 200 -
+2025-05-18 05:36:17,952 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:17] "GET /api/bandeiras HTTP/1.1" 200 -
+2025-05-18 05:36:18,040 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:18] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:36:18,370 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-18 05:36:20,639 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:20] "GET /api/postos/proximos?lat=-24.722088&lon=-53.7409279&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:20,947 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:20] "GET /api/postos/proximos?lat=-24.722088&lon=-53.7409279&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:20,957 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:20] "GET /api/postos/proximos?lat=-24.722884535920112&lon=-53.740768379894405&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:20,965 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:20] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:36:20,966 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:20] "[33mGET /img/marker-location.png HTTP/1.1[0m" 404 -
+2025-05-18 05:36:21,251 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:21] "GET /api/postos/proximos?lat=-24.723288610489572&lon=-53.74082565307618&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:21,295 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:21] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:36:21,303 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:21] "GET /api/postos/proximos?lat=-24.722586938831128&lon=-53.74048233032227&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:21,562 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:21] "GET /api/postos/proximos?lat=-24.722197119533515&lon=-53.74082565307618&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:21,622 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:21] "GET /api/postos/proximos?lat=-24.72266490254412&lon=-53.7407398223877&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:21,625 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:21] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:36:21,888 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:21] "GET /api/postos/proximos?lat=-24.72266490254412&lon=-53.7407398223877&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:21,934 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:21] "GET /api/postos/proximos?lat=-24.72110561900391&lon=-53.7407398223877&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:21,948 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:21] "GET /api/postos/proximos?lat=-24.724458054461245&lon=-53.73885154724122&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:22,214 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:22,215 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:22] "GET /api/postos/proximos?lat=-24.724458054461245&lon=-53.73885154724122&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:22,260 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:22,262 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:22,262 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:22] "GET /api/postos/proximos?lat=-24.722820829823554&lon=-53.73988151550294&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:22,263 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:22] "GET /api/postos/proximos?lat=-24.721729334764518&lon=-53.73773574829102&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:22,272 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:22] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:36:22,434 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:22] "[35m[1mGET /api/postos/proximos?lat=-24.723366573762934&lon=-53.74013900756836&raio=5&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:36:22,524 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:22,525 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:22] "GET /api/postos/proximos?lat=-24.72352250016315&lon=-53.73833656311036&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:22,587 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:22,588 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:22] "GET /api/postos/proximos?lat=-24.723210647167342&lon=-53.738765716552734&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:22,619 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:22,619 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:22,620 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:22] "GET /api/postos/proximos?lat=-24.722275083490732&lon=-53.73859405517578&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:22,621 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:22] "GET /api/postos/proximos?lat=-24.723366573762934&lon=-53.73825073242188&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:22,756 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:22,759 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:22] "GET /api/postos/proximos?lat=-24.722742866208257&lon=-53.73850822448731&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:22,836 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:22,837 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:22] "GET /api/postos/proximos?lat=-24.72266490254412&lon=-53.738679885864265&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:22,912 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:22,912 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:22] "GET /api/postos/proximos?lat=-24.722508975069296&lon=-53.73910903930664&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:22,942 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:22,944 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:22] "GET /api/postos/proximos?lat=-24.723366573762934&lon=-53.73893737792969&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:22,957 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:22,959 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:22] "GET /api/postos/proximos?lat=-24.723054720376364&lon=-53.738679885864265&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:23,085 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:23,086 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:23] "GET /api/postos/proximos?lat=-24.722898793389998&lon=-53.73756408691407&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:23,163 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:23,163 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:23] "GET /api/postos/proximos?lat=-24.723054720376364&lon=-53.737907409667976&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:23,225 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:23,225 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:23] "GET /api/postos/proximos?lat=-24.723054720376364&lon=-53.73807907104493&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:23,255 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:23,257 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:23] "GET /api/postos/proximos?lat=-24.724146203810104&lon=-53.739709854125984&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:23,287 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:23,288 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:23] "GET /api/postos/proximos?lat=-24.723600463289976&lon=-53.73799324035645&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:23,402 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:23,402 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:23] "GET /api/postos/proximos?lat=-24.722976756907602&lon=-53.738164901733406&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:23,474 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:23,475 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:23] "GET /api/postos/proximos?lat=-24.723288610489572&lon=-53.73807907104493&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:23,535 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:23,536 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:23] "GET /api/postos/proximos?lat=-24.72375638939711&lon=-53.73833656311036&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:23,582 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:23,582 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:23] "GET /api/postos/proximos?lat=-24.72375638939711&lon=-53.73825073242188&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:23,613 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:23,614 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:23] "GET /api/postos/proximos?lat=-24.72375638939711&lon=-53.73893737792969&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:23,720 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:23,721 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:23] "GET /api/postos/proximos?lat=-24.723210647167342&lon=-53.73833656311036&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:23,795 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:23,796 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:23] "GET /api/postos/proximos?lat=-24.724458054461245&lon=-53.738164901733406&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:23,862 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:23,862 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:23] "GET /api/postos/proximos?lat=-24.72422416654617&lon=-53.73825073242188&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:23,896 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:23,896 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:23] "GET /api/postos/proximos?lat=-24.724613979493732&lon=-53.73910903930664&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:23,931 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:23,931 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:23] "GET /api/postos/proximos?lat=-24.723600463289976&lon=-53.73850822448731&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:24,031 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:24,032 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:24] "GET /api/postos/proximos?lat=-24.724146203810104&lon=-53.73885154724122&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:24,111 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:24,112 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:24] "GET /api/postos/proximos?lat=-24.72453601700191&lon=-53.738679885864265&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:24,189 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:24,190 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:24] "GET /api/postos/proximos?lat=-24.724380091871726&lon=-53.73893737792969&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:24,214 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:24,215 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:24] "GET /api/postos/proximos?lat=-24.725861372719365&lon=-53.738679885864265&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:24,266 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:24,267 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:24] "GET /api/postos/proximos?lat=-24.723912315308855&lon=-53.738765716552734&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:24,344 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:24,345 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:24] "GET /api/postos/proximos?lat=-24.72492582897252&lon=-53.73910903930664&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:24,422 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:24,423 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:24] "GET /api/postos/proximos?lat=-24.72476990433082&lon=-53.73885154724122&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:24,514 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:24,514 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:24] "GET /api/postos/proximos?lat=-24.725003791220086&lon=-53.738164901733406&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:24,546 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:24,546 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:24] "GET /api/postos/proximos?lat=-24.72430212923337&lon=-53.73799324035645&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:24,577 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:24,578 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:24] "GET /api/postos/proximos?lat=-24.7246919419367&lon=-53.738679885864265&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:24,654 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:24,654 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:24] "GET /api/postos/proximos?lat=-24.725393601725226&lon=-53.73773574829102&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:24,747 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:24,748 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:24] "GET /api/postos/proximos?lat=-24.725003791220086&lon=-53.73833656311036&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:24,827 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:24,827 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:24] "GET /api/postos/proximos?lat=-24.725315639721895&lon=-53.7378215789795&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:24,873 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:24,874 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:24] "GET /api/postos/proximos?lat=-24.72422416654617&lon=-53.73739242553712&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:24,905 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:24,906 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:24] "GET /api/postos/proximos?lat=-24.724847866676082&lon=-53.73730659484864&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:24,980 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:24,980 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:24] "GET /api/postos/proximos?lat=-24.724847866676082&lon=-53.73799324035645&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:25,060 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:25,061 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:25] "GET /api/postos/proximos?lat=-24.724458054461245&lon=-53.73825073242188&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:25,146 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:25,147 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:25] "GET /api/postos/proximos?lat=-24.72476990433082&lon=-53.738164901733406&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:25,201 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:25,202 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:25] "GET /api/postos/proximos?lat=-24.724613979493732&lon=-53.7378215789795&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:25,230 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:25,231 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:25] "GET /api/postos/proximos?lat=-24.724146203810104&lon=-53.737907409667976&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:25,294 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:25,295 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:25] "GET /api/postos/proximos?lat=-24.725237677669714&lon=-53.73833656311036&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:25,369 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:25,370 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:25] "GET /api/postos/proximos?lat=-24.725237677669714&lon=-53.73850822448731&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:25,462 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:25,464 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:25] "GET /api/postos/proximos?lat=-24.725081753418802&lon=-53.73893737792969&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:25,511 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:25,511 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:25] "GET /api/postos/proximos?lat=-24.725003791220086&lon=-53.738679885864265&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:25,542 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:25,544 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:25] "GET /api/postos/proximos?lat=-24.7246919419367&lon=-53.736705780029304&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:25,573 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:25,574 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:25] "GET /api/postos/proximos?lat=-24.724847866676082&lon=-53.737907409667976&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:25,681 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:25,681 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:25] "GET /api/postos/proximos?lat=-24.72492582897252&lon=-53.73893737792969&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:25,777 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:25,778 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:25] "GET /api/postos/proximos?lat=-24.725003791220086&lon=-53.738765716552734&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:25,822 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:25,823 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:25] "GET /api/postos/proximos?lat=-24.72492582897252&lon=-53.73842239379883&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:25,855 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:25,856 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:25] "GET /api/postos/proximos?lat=-24.7246919419367&lon=-53.7378215789795&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:25,886 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:25,887 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:25] "GET /api/postos/proximos?lat=-24.724199228455173&lon=-53.73795718872071&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:26,011 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:26,012 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:26] "GET /api/postos/proximos?lat=-24.724146203810104&lon=-53.73799324035645&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:26,089 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:26,089 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:26] "GET /api/postos/proximos?lat=-24.72430212923337&lon=-53.73807907104493&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:26,094 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:26,094 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:26] "GET /api/postos/proximos?lat=-24.72422416654617&lon=-53.73807907104493&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:26,136 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:26,136 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:26] "GET /api/postos/proximos?lat=-24.72375638939711&lon=-53.73807907104493&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:26,168 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:26,170 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:26] "GET /api/postos/proximos?lat=-24.725159715568694&lon=-53.73773574829102&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:26,213 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:26,214 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:26] "GET /api/postos/proximos?lat=-24.723678426367975&lon=-53.73833656311036&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:26,323 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:26,323 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:26] "GET /api/postos/proximos?lat=-24.723912315308855&lon=-53.73825073242188&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:26,415 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:26,416 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:26] "GET /api/postos/proximos?lat=-24.724613979493732&lon=-53.73825073242188&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:26,424 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:26,425 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:26] "GET /api/postos/proximos?lat=-24.724380091871726&lon=-53.73807907104493&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:26,462 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:26,463 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:26] "GET /api/postos/proximos?lat=-24.72430212923337&lon=-53.73842239379883&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:26,507 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:26,508 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:26] "GET /api/postos/proximos?lat=-24.723990278191454&lon=-53.73910903930664&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:26,523 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:26,524 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:26] "GET /api/postos/proximos?lat=-24.723678426367975&lon=-53.73859405517578&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:26,638 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:26,639 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:26] "GET /api/postos/proximos?lat=-24.723600463289976&lon=-53.738679885864265&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:26,740 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:26,742 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:26] "GET /api/postos/proximos?lat=-24.723990278191454&lon=-53.73859405517578&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:26,742 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:26,744 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:26] "GET /api/postos/proximos?lat=-24.72476990433082&lon=-53.73850822448731&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:26,788 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:26,788 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:26] "GET /api/postos/proximos?lat=-24.72476990433082&lon=-53.73859405517578&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:26,819 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:26,820 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:26] "GET /api/postos/proximos?lat=-24.72375638939711&lon=-53.738679885864265&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:26,850 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:26,851 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:26] "GET /api/postos/proximos?lat=-24.723678426367975&lon=-53.73842239379883&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:26,959 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:26,960 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:26] "GET /api/postos/proximos?lat=-24.72375638939711&lon=-53.73842239379883&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:27,054 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:27,054 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:27] "GET /api/postos/proximos?lat=-24.72344453698747&lon=-53.73842239379883&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:27,058 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:27,060 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:27] "GET /api/postos/proximos?lat=-24.72344453698747&lon=-53.73859405517578&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:27,112 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:27,113 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:27] "GET /api/postos/proximos?lat=-24.723210647167342&lon=-53.7396240234375&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:27,160 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:27,161 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:27] "GET /api/postos/proximos?lat=-24.72344453698747&lon=-53.73842239379883&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:27,278 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:27,278 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:27] "GET /api/postos/proximos?lat=-24.723210647167342&lon=-53.73842239379883&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:27,375 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:27,376 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:27] "GET /api/postos/proximos?lat=-24.723366573762934&lon=-53.73850822448731&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:27,378 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:27,379 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:27] "GET /api/postos/proximos?lat=-24.722976756907602&lon=-53.73833656311036&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:27,437 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:27,437 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:27] "GET /api/postos/proximos?lat=-24.722197119533515&lon=-53.73885154724122&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:27,482 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:27,483 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:27] "GET /api/postos/proximos?lat=-24.723366573762934&lon=-53.73850822448731&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:27,590 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:27,592 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:27] "GET /api/postos/proximos?lat=-24.721807299014795&lon=-53.738679885864265&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:27,686 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:27,686 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:27] "GET /api/postos/proximos?lat=-24.722119155527466&lon=-53.738765716552734&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:27,688 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:27,689 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:27] "GET /api/postos/proximos?lat=-24.7223530473991&lon=-53.73842239379883&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:27,710 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:27,712 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:27] "GET /api/postos/proximos?lat=-24.7223530473991&lon=-53.73885154724122&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:27,746 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:27,747 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:27] "GET /api/postos/proximos?lat=-24.723132683796276&lon=-53.738765716552734&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:27,809 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:27,810 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:27] "GET /api/postos/proximos?lat=-24.721963227368825&lon=-53.73842239379883&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:27,902 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:27,904 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:27] "GET /api/postos/proximos?lat=-24.72188526321623&lon=-53.73850822448731&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:28,012 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:28,012 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:28] "GET /api/postos/proximos?lat=-24.72188526321623&lon=-53.738679885864265&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:28,016 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:28,017 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:28] "GET /api/postos/proximos?lat=-24.72188526321623&lon=-53.73893737792969&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:28,048 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:28,050 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:28] "GET /api/postos/proximos?lat=-24.722275083490732&lon=-53.73850822448731&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:28,060 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:28,061 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:28] "GET /api/postos/proximos?lat=-24.72149544172061&lon=-53.737649917602546&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:28,120 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:28,122 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:28] "GET /api/postos/proximos?lat=-24.722820829823554&lon=-53.73859405517578&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:28,214 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:28,215 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:28] "GET /api/postos/proximos?lat=-24.722898793389998&lon=-53.738679885864265&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:28,339 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:28,340 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:28] "GET /api/postos/proximos?lat=-24.722820829823554&lon=-53.738765716552734&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:28,352 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:28,354 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:28] "GET /api/postos/proximos?lat=-24.722508975069296&lon=-53.738765716552734&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:28,389 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:28,389 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:28,390 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:28] "GET /api/postos/proximos?lat=-24.722742866208257&lon=-53.73859405517578&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:28,392 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:28] "GET /api/postos/proximos?lat=-24.723288610489572&lon=-53.739967346191406&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:28,448 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:28,449 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:28] "GET /api/postos/proximos?lat=-24.722898793389998&lon=-53.73953819274903&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:28,527 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:28,527 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:28] "GET /api/postos/proximos?lat=-24.722898793389998&lon=-53.73945236206055&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:28,669 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:28,669 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:28] "GET /api/postos/proximos?lat=-24.722820829823554&lon=-53.73936653137208&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:28,671 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:28,672 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:28] "GET /api/postos/proximos?lat=-24.722898793389998&lon=-53.739280700683594&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:28,715 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:28,718 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:28] "GET /api/postos/proximos?lat=-24.72266490254412&lon=-53.73979568481445&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:28,729 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:28,729 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:28] "GET /api/postos/proximos?lat=-24.722431011258614&lon=-53.73988151550294&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:28,761 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:28,762 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:28] "GET /api/postos/proximos?lat=-24.72344453698747&lon=-53.74048233032227&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:28,837 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:28,838 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:28] "GET /api/postos/proximos?lat=-24.723366573762934&lon=-53.74048233032227&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:28,994 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:28,994 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:28] "GET /api/postos/proximos?lat=-24.723132683796276&lon=-53.74013900756836&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:29,002 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:29,003 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:29] "GET /api/postos/proximos?lat=-24.723054720376364&lon=-53.74005317687989&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:29,040 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:29,041 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:29] "GET /api/postos/proximos?lat=-24.722898793389998&lon=-53.73979568481445&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:29,044 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:29,047 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:29] "GET /api/postos/proximos?lat=-24.721963227368825&lon=-53.74005317687989&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:29,074 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:29,075 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:29] "GET /api/postos/proximos?lat=-24.723366573762934&lon=-53.738164901733406&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:29,163 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:29,164 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:29] "GET /api/postos/proximos?lat=-24.72352250016315&lon=-53.73893737792969&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:29,304 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:29,304 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:29] "GET /api/postos/proximos?lat=-24.723366573762934&lon=-53.738164901733406&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:29,384 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:29,384 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:29,385 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:29] "GET /api/postos/proximos?lat=-24.72352250016315&lon=-53.73902320861817&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:29,385 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:29] "GET /api/postos/proximos?lat=-24.723288610489572&lon=-53.73885154724122&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:29,399 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:29,399 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:29] "GET /api/postos/proximos?lat=-24.723288610489572&lon=-53.738679885864265&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:29,414 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:29,415 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:29] "GET /api/postos/proximos?lat=-24.724613979493732&lon=-53.737907409667976&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:29,478 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:29,479 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:29] "GET /api/postos/proximos?lat=-24.7246919419367&lon=-53.737907409667976&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:29,630 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:29,631 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:29] "GET /api/postos/proximos?lat=-24.724613979493732&lon=-53.73799324035645&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:29,694 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:29,696 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:29] "GET /api/postos/proximos?lat=-24.724458054461245&lon=-53.73807907104493&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:29,711 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:29,712 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:29] "GET /api/postos/proximos?lat=-24.724380091871726&lon=-53.737907409667976&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:29,724 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:29,724 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:29] "GET /api/postos/proximos?lat=-24.72476990433082&lon=-53.73756408691407&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:29,739 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:29,740 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:29] "GET /api/postos/proximos?lat=-24.72430212923337&lon=-53.73730659484864&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:29,802 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:29,803 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:29] "GET /api/postos/proximos?lat=-24.72453601700191&lon=-53.73704910278321&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:29,942 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:29,943 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:29] "GET /api/postos/proximos?lat=-24.7240682410252&lon=-53.73722076416016&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:30,019 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:30,019 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:30] "GET /api/postos/proximos?lat=-24.72422416654617&lon=-53.73756408691407&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:30,026 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:30,027 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:30] "GET /api/postos/proximos?lat=-24.72430212923337&lon=-53.73756408691407&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:30,046 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:30,047 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:30] "GET /api/postos/proximos?lat=-24.72430212923337&lon=-53.73679161071778&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:30,063 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:30,064 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:30] "GET /api/postos/proximos?lat=-24.724847866676082&lon=-53.73661994934083&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:30,111 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:30,112 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:30] "GET /api/postos/proximos?lat=-24.72453601700191&lon=-53.73722076416016&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:30,254 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:30,254 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:30] "GET /api/postos/proximos?lat=-24.724458054461245&lon=-53.73739242553712&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:30,347 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:30,349 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:30] "GET /api/postos/proximos?lat=-24.724380091871726&lon=-53.73704910278321&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:30,390 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:30,393 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:30] "GET /api/postos/proximos?lat=-24.72453601700191&lon=-53.73722076416016&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:30,396 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:30,397 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:30] "GET /api/postos/proximos?lat=-24.72453601700191&lon=-53.73713493347169&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:30,417 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:30,424 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:30] "GET /api/postos/proximos?lat=-24.7246919419367&lon=-53.73773574829102&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:30,430 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:30,431 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:30] "GET /api/postos/proximos?lat=-24.72476990433082&lon=-53.73704910278321&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:30,564 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:30,567 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:30] "GET /api/postos/proximos?lat=-24.72453601700191&lon=-53.73687744140626&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:30,688 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:30,688 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:30] "GET /api/postos/proximos?lat=-24.724380091871726&lon=-53.73713493347169&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:30,720 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:30,720 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:30] "GET /api/postos/proximos?lat=-24.72430212923337&lon=-53.73713493347169&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:30,797 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:30,798 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:30] "GET /api/postos/proximos?lat=-24.723834352377402&lon=-53.73679161071778&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:30,799 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:30,803 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:30] "GET /api/postos/proximos?lat=-24.723912315308855&lon=-53.73713493347169&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:30,888 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:30,889 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:30] "GET /api/postos/proximos?lat=-24.72430212923337&lon=-53.73713493347169&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:31,013 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:31,014 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:31] "GET /api/postos/proximos?lat=-24.723990278191454&lon=-53.73722076416016&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:31,029 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:31,029 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:31] "GET /api/postos/proximos?lat=-24.723990278191454&lon=-53.73739242553712&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:31,061 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:31,061 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:31] "GET /api/postos/proximos?lat=-24.723990278191454&lon=-53.73704910278321&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:31,121 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:31,122 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:31] "GET /api/postos/proximos?lat=-24.7240682410252&lon=-53.736705780029304&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:31,131 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:31,135 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:31] "GET /api/postos/proximos?lat=-24.724146203810104&lon=-53.73704910278321&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:31,217 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:31,218 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:31] "GET /api/postos/proximos?lat=-24.724146203810104&lon=-53.73730659484864&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:31,323 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:31,324 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:31] "GET /api/postos/proximos?lat=-24.723990278191454&lon=-53.73713493347169&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:31,355 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:31,356 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:31] "GET /api/postos/proximos?lat=-24.72492582897252&lon=-53.73610496520997&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:31,386 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:31,387 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:31] "GET /api/postos/proximos?lat=-24.724847866676082&lon=-53.7363624572754&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:31,432 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:31,433 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:31] "GET /api/postos/proximos?lat=-24.72422416654617&lon=-53.73713493347169&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:31,464 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:31,465 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:31] "GET /api/postos/proximos?lat=-24.723990278191454&lon=-53.736448287963874&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:31,557 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:31,558 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:31] "GET /api/postos/proximos?lat=-24.724146203810104&lon=-53.73601913452149&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:31,636 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:31,636 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:31] "GET /api/postos/proximos?lat=-24.723990278191454&lon=-53.736190795898445&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:31,684 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:31,685 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:31] "GET /api/postos/proximos?lat=-24.723210647167342&lon=-53.736448287963874&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:31,714 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:31,715 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:31] "GET /api/postos/proximos?lat=-24.72344453698747&lon=-53.736705780029304&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:31,746 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:31,747 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:31] "GET /api/postos/proximos?lat=-24.723834352377402&lon=-53.73610496520997&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:31,793 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:31,794 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:31] "GET /api/postos/proximos?lat=-24.72453601700191&lon=-53.73576164245606&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:31,870 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:31,871 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:31] "GET /api/postos/proximos?lat=-24.724380091871726&lon=-53.73627662658692&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:31,947 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:31,948 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:31] "GET /api/postos/proximos?lat=-24.7240682410252&lon=-53.73627662658692&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:31,995 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:31,996 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:31] "GET /api/postos/proximos?lat=-24.723600463289976&lon=-53.73653411865235&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:32,027 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:32,028 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:32] "GET /api/postos/proximos?lat=-24.723990278191454&lon=-53.73627662658692&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:32,073 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:32,074 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:32] "GET /api/postos/proximos?lat=-24.72422416654617&lon=-53.73730659484864&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:32,120 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:32,121 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:32] "GET /api/postos/proximos?lat=-24.723912315308855&lon=-53.73739242553712&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:36:32,211 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:36:32,212 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:36:32] "GET /api/postos/proximos?lat=-24.723912315308855&lon=-53.73756408691407&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:37:18,885 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:18] "GET / HTTP/1.1" 200 -
+2025-05-18 05:37:19,147 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:19] "GET /css/styles.css HTTP/1.1" 200 -
+2025-05-18 05:37:19,226 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:19] "GET /css/markers.css HTTP/1.1" 200 -
+2025-05-18 05:37:19,227 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:19] "[33mGET /js/dados_simulados.js HTTP/1.1[0m" 404 -
+2025-05-18 05:37:19,228 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:19] "GET /js/api.js HTTP/1.1" 200 -
+2025-05-18 05:37:19,234 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:19] "GET /js/map.js HTTP/1.1" 200 -
+2025-05-18 05:37:19,239 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:19] "GET /js/app.js HTTP/1.1" 200 -
+2025-05-18 05:37:19,454 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:19] "GET /api/status HTTP/1.1" 200 -
+2025-05-18 05:37:19,537 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:19] "GET /api/bandeiras HTTP/1.1" 200 -
+2025-05-18 05:37:19,628 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:19] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:37:19,770 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:19] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:37:21,592 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:21] "[33mGET /img/marker-location.png HTTP/1.1[0m" 404 -
+2025-05-18 05:37:21,592 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:37:21,594 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:21] "GET /api/postos/proximos?lat=-24.722088&lon=-53.7409279&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:37:21,838 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:37:21,839 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:21] "GET /api/postos/proximos?lat=-24.722088&lon=-53.7409279&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:37:21,911 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:37:21,913 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:21] "GET /api/postos/proximos?lat=-24.722457783413017&lon=-53.74492381164551&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:37:21,923 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:21] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:37:21,927 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:21] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:37:22,210 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:37:22,211 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:22] "GET /api/postos/proximos?lat=-24.72145645950389&lon=-53.74374389648438&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:37:22,243 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:37:22,244 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:22] "GET /api/postos/proximos?lat=-24.72208017350612&lon=-53.74520301818848&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:37:22,489 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:37:22,489 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:22] "GET /api/postos/proximos?lat=-24.72145645950389&lon=-53.7447738647461&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:37:22,529 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:37:22,531 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:22] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:37:22,531 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:22] "GET /api/postos/proximos?lat=-24.722314065451023&lon=-53.74511718750001&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:37:22,569 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:37:22,570 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:22] "GET /api/postos/proximos?lat=-24.72208017350612&lon=-53.744945526123054&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:37:22,819 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:37:22,820 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:22] "GET /api/postos/proximos?lat=-24.722469993170073&lon=-53.74528884887696&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:37:22,854 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:22] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:37:22,854 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:37:22,856 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:22] "GET /api/postos/proximos?lat=-24.722937775154914&lon=-53.743915557861335&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:37:22,899 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:37:22,900 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:22] "GET /api/postos/proximos?lat=-24.722781848022013&lon=-53.74460220336915&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:37:23,139 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:37:23,141 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:23] "GET /api/postos/proximos?lat=-24.722781848022013&lon=-53.74468803405762&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:37:23,178 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:37:23,180 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:23] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:37:23,180 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:23] "GET /api/postos/proximos?lat=-24.72176831689577&lon=-53.743400573730476&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:37:23,226 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:37:23,228 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:23] "GET /api/postos/proximos?lat=-24.721924245298627&lon=-53.74417304992676&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:37:23,472 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:37:23,473 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:23] "GET /api/postos/proximos?lat=-24.721300530514906&lon=-53.74374389648438&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:37:23,503 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:37:23,505 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:23] "GET /api/postos/proximos?lat=-24.721534423925128&lon=-53.74408721923829&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:37:23,505 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:23] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:37:23,550 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:37:23,550 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:23] "GET /api/postos/proximos?lat=-24.72145645950389&lon=-53.74417304992676&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:37:23,838 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:37:23,839 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:23] "GET /api/postos/proximos?lat=-24.721534423925128&lon=-53.74425888061524&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:37:23,880 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:37:23,905 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:23] "GET /api/postos/proximos?lat=-24.71958529874149&lon=-53.74511718750001&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:37:23,921 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:23] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:37:24,013 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:24] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:37:24,137 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:37:24,138 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:24] "GET /api/postos/proximos?lat=-24.719975126220316&lon=-53.7447738647461&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:37:24,262 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:37:24,263 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:24] "GET /api/postos/proximos?lat=-24.720364952478107&lon=-53.7447738647461&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:37:24,456 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:24] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:37:24,456 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:37:24,457 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:24] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:37:24,460 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:24] "GET /api/postos/proximos?lat=-24.720442917583135&lon=-53.74434471130371&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:37:24,590 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:37:24,592 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:24] "GET /api/postos/proximos?lat=-24.720053091569564&lon=-53.74460220336915&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:37:24,780 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:37:24,781 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:24] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:37:24,781 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:24] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:37:24,782 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:24] "GET /api/postos/proximos?lat=-24.721222565947137&lon=-53.74606132507325&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:37:24,910 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:37:24,911 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:24] "GET /api/postos/proximos?lat=-24.720131056869956&lon=-53.746147155761726&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:37:25,105 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:25] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:37:25,105 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:37:25,106 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:25] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:37:25,110 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:25] "GET /api/postos/proximos?lat=-24.720364952478107&lon=-53.74631881713868&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:37:25,226 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:37:25,227 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:25] "GET /api/postos/proximos?lat=-24.720286987324233&lon=-53.745889663696296&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:37:25,431 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:37:25,435 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:25] "GET /api/postos/proximos?lat=-24.720910707187645&lon=-53.74554634094238&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:37:25,437 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:25] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:37:25,439 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:25] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:37:25,541 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:37:25,542 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:25] "GET /api/postos/proximos?lat=-24.721846281121618&lon=-53.742456436157234&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:37:25,761 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:37:25,762 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:25] "GET /api/postos/proximos?lat=-24.721144601330522&lon=-53.74460220336915&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:37:25,855 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:37:25,855 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:25] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:37:25,856 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:25] "GET /api/postos/proximos?lat=-24.72254795695632&lon=-53.74254226684571&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:37:25,860 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:25] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:37:26,087 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:37:26,087 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:26] "GET /api/postos/proximos?lat=-24.722158137536596&lon=-53.74374389648438&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:37:26,181 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:37:26,182 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:26] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:37:26,183 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:26] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:37:26,184 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:26] "GET /api/postos/proximos?lat=-24.72519869662531&lon=-53.74460220336915&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:37:26,398 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:37:26,399 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:26] "GET /api/postos/proximos?lat=-24.724029259614433&lon=-53.74408721923829&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:37:26,511 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:37:26,513 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:26] "GET /api/postos/proximos?lat=-24.72426314789587&lon=-53.747949600219734&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:37:26,513 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:26] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:37:26,515 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:37:26] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:08,125 - backend_flask - ERROR - Erro ao carregar KD-Tree: No module named 'numpy._core'
+2025-05-18 05:39:08,126 - backend_flask - INFO - Cache inicializado com 5009 postos
+2025-05-18 05:39:08,221 - backend_flask - ERROR - Erro ao carregar KD-Tree: No module named 'numpy._core'
+2025-05-18 05:39:08,222 - backend_flask - INFO - Cache inicializado com 5009 postos
+2025-05-18 05:39:08,264 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.68.55:5000
+2025-05-18 05:39:08,265 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-18 05:39:08,266 - werkzeug - INFO -  * Restarting with stat
+2025-05-18 05:39:08,897 - backend_flask - ERROR - Erro ao carregar KD-Tree: No module named 'numpy._core'
+2025-05-18 05:39:08,897 - backend_flask - INFO - Cache inicializado com 5009 postos
+2025-05-18 05:39:08,972 - backend_flask - ERROR - Erro ao carregar KD-Tree: No module named 'numpy._core'
+2025-05-18 05:39:08,972 - backend_flask - INFO - Cache inicializado com 5009 postos
+2025-05-18 05:39:08,992 - werkzeug - WARNING -  * Debugger is active!
+2025-05-18 05:39:08,994 - werkzeug - INFO -  * Debugger PIN: 145-227-398
+2025-05-18 05:39:12,247 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:12] "GET / HTTP/1.1" 200 -
+2025-05-18 05:39:12,278 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:12] "GET /css/styles.css HTTP/1.1" 200 -
+2025-05-18 05:39:12,459 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:12] "GET /css/markers.css HTTP/1.1" 200 -
+2025-05-18 05:39:12,586 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:12] "[33mGET /js/dados_simulados.js HTTP/1.1[0m" 404 -
+2025-05-18 05:39:12,588 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:12] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:12,589 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:12] "GET /js/api.js HTTP/1.1" 200 -
+2025-05-18 05:39:12,590 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:12] "GET /js/map.js HTTP/1.1" 200 -
+2025-05-18 05:39:12,590 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:12] "GET /js/app.js HTTP/1.1" 200 -
+2025-05-18 05:39:12,766 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:12] "GET /api/status HTTP/1.1" 200 -
+2025-05-18 05:39:12,938 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:12] "GET /api/bandeiras HTTP/1.1" 200 -
+2025-05-18 05:39:13,078 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:13] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:13,762 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:13] "[33mGET /img/marker-location.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:13,764 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:13] "GET /api/postos/proximos?lat=-24.722086&lon=-53.7409255&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:14,030 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:14] "GET /api/postos/proximos?lat=-24.722086&lon=-53.7409255&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:14,076 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:14] "GET /api/postos/proximos?lat=-24.72557229294734&lon=-53.740707390747076&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:14,082 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:14] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:14,082 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:14] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:14,370 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:14] "GET /api/postos/proximos?lat=-24.724613979493732&lon=-53.74056816101075&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:14,402 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:14] "GET /api/postos/proximos?lat=-24.725549525585336&lon=-53.74056816101075&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:14,653 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:14] "GET /api/postos/proximos?lat=-24.725393601725226&lon=-53.7407398223877&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:14,682 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:14] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:14,682 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:14] "GET /api/postos/proximos?lat=-24.725159715568694&lon=-53.74048233032227&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:14,761 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:14] "GET /api/postos/proximos?lat=-24.725783411009132&lon=-53.740653991699226&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:14,981 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:14] "GET /api/postos/proximos?lat=-24.724847866676082&lon=-53.74005317687989&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:15,006 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:15] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:15,013 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:15] "GET /api/postos/proximos?lat=-24.725549525585336&lon=-53.74434471130371&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:15,076 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:15] "GET /api/postos/proximos?lat=-24.725627487442114&lon=-53.74297142028809&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:15,306 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:15] "GET /api/postos/proximos?lat=-24.725627487442114&lon=-53.743658065795906&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:15,337 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:15] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:15,338 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:15] "GET /api/postos/proximos?lat=-24.728823881509193&lon=-53.742456436157234&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:15,403 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:15] "GET /api/postos/proximos?lat=-24.727966320429903&lon=-53.74279975891114&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:15,620 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:15] "GET /api/postos/proximos?lat=-24.72835612165329&lon=-53.74279975891114&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:15,651 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:15] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:15,652 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:15] "GET /api/postos/proximos?lat=-24.728122241065808&lon=-53.74005317687989&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:15,717 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:15] "GET /api/postos/proximos?lat=-24.727966320429903&lon=-53.74082565307618&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:15,945 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:15] "GET /api/postos/proximos?lat=-24.728590001801084&lon=-53.74048233032227&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:15,977 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:15] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:15,977 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:15] "GET /api/postos/proximos?lat=-24.728512041800677&lon=-53.74125480651856&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:16,039 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:16] "GET /api/postos/proximos?lat=-24.728278161506314&lon=-53.74099731445313&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:16,275 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:16] "GET /api/postos/proximos?lat=-24.728590001801084&lon=-53.741168975830085&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:16,290 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:16] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:16,295 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:16] "GET /api/postos/proximos?lat=-24.72773243910962&lon=-53.7407398223877&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:16,354 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:16] "GET /api/postos/proximos?lat=-24.727966320429903&lon=-53.7407398223877&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:16,602 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:16] "GET /api/postos/proximos?lat=-24.728122241065808&lon=-53.74048233032227&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:16,617 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:16] "GET /api/postos/proximos?lat=-24.729213680045625&lon=-53.740911483764656&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:16,621 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:16] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:16,678 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:16] "GET /api/postos/proximos?lat=-24.728823881509193&lon=-53.74099731445313&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:16,925 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:16] "GET /api/postos/proximos?lat=-24.728512041800677&lon=-53.74013900756836&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:16,939 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:16] "GET /api/postos/proximos?lat=-24.728979801070327&lon=-53.74151229858399&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:17,001 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:17] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:17,002 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:17] "GET /api/postos/proximos?lat=-24.72835612165329&lon=-53.74134063720704&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:17,251 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:17] "GET /api/postos/proximos?lat=-24.72749855734967&lon=-53.741683959960945&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:17,255 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:17] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:17,330 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:17] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:17,332 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:17] "GET /api/postos/proximos?lat=-24.72905776077761&lon=-53.73988151550294&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:17,580 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:17] "GET /api/postos/proximos?lat=-24.728200201310493&lon=-53.74048233032227&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:17,654 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:17] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:17,656 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:17] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:17,657 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:17] "GET /api/postos/proximos?lat=-24.72936959911821&lon=-53.73910903930664&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:17,904 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:17] "GET /api/postos/proximos?lat=-24.728590001801084&lon=-53.74005317687989&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:17,981 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:17] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:17,982 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:17] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:17,984 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:17] "GET /api/postos/proximos?lat=-24.730538985933496&lon=-53.73807907104493&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:18,221 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:18] "GET /api/postos/proximos?lat=-24.72936959911821&lon=-53.73936653137208&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:18,312 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:18] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:18,312 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:18] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:18,317 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:18] "GET /api/postos/proximos?lat=-24.728901841314187&lon=-53.73885154724122&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:18,545 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:18] "GET /api/postos/proximos?lat=-24.728745921655346&lon=-53.73988151550294&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:18,638 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:18] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:18,640 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:18] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:18,642 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:18] "GET /api/postos/proximos?lat=-24.72781039959856&lon=-53.73730659484864&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:18,871 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:18] "GET /api/postos/proximos?lat=-24.728278161506314&lon=-53.73807907104493&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:18,963 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:18] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:18,966 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:18] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:18,967 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:18] "GET /api/postos/proximos?lat=-24.728200201310493&lon=-53.738679885864265&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:19,194 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:19] "GET /api/postos/proximos?lat=-24.729291639606338&lon=-53.73850822448731&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:19,287 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:19] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:19,289 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:19] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:19,290 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:19] "GET /api/postos/proximos?lat=-24.72632914195489&lon=-53.736448287963874&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:19,521 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:19] "GET /api/postos/proximos?lat=-24.728434081751406&lon=-53.73807907104493&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:19,612 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:19] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:19,614 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:19] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:19,617 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:19] "GET /api/postos/proximos?lat=-24.72781039959856&lon=-53.73679161071778&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:19,847 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:19] "GET /api/postos/proximos?lat=-24.728122241065808&lon=-53.73773574829102&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:19,938 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:19] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:19,941 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:19] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:19,942 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:19] "GET /api/postos/proximos?lat=-24.728434081751406&lon=-53.736448287963874&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:20,174 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:20] "GET /api/postos/proximos?lat=-24.728590001801084&lon=-53.73713493347169&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:20,267 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:20] "GET /api/postos/proximos?lat=-24.726718948307774&lon=-53.73601913452149&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:20,270 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:20] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:20,271 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:20] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:20,485 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:20] "GET /api/postos/proximos?lat=-24.728044280772284&lon=-53.736705780029304&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:20,579 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:20] "GET /api/postos/proximos?lat=-24.726485064642596&lon=-53.735933303833015&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:20,810 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:20] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:20,811 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:20] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:20,813 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:20] "GET /api/postos/proximos?lat=-24.727108753439374&lon=-53.73653411865235&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:20,905 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:20] "GET /api/postos/proximos?lat=-24.72679690943179&lon=-53.73498916625977&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:21,134 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:21] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:21,134 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:21] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:21,138 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:21] "GET /api/postos/proximos?lat=-24.727264675150042&lon=-53.73661994934083&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:21,228 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:21] "GET /api/postos/proximos?lat=-24.726563025913173&lon=-53.73318672180176&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:21,467 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:21] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:21,470 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:21] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:21,471 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:21] "GET /api/postos/proximos?lat=-24.726952831533286&lon=-53.73533248901368&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:21,541 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:21] "GET /api/postos/proximos?lat=-24.725939334380733&lon=-53.73258590698243&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:21,789 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:21] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:21,794 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:21] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:21,795 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:21] "GET /api/postos/proximos?lat=-24.727108753439374&lon=-53.73481750488282&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:21,867 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:21] "GET /api/postos/proximos?lat=-24.722820829823554&lon=-53.73584747314454&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:22,116 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:22] "GET /api/postos/proximos?lat=-24.724613979493732&lon=-53.73490333557129&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:22,130 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:22] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:22,132 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:22] "GET /api/postos/proximos?lat=-24.72344453698747&lon=-53.735933303833015&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:22,179 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:22] "GET /api/postos/proximos?lat=-24.723678426367975&lon=-53.735933303833015&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:22,431 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:22] "GET /api/postos/proximos?lat=-24.723366573762934&lon=-53.73576164245606&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:22,459 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:22] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:22,466 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:22] "GET /api/postos/proximos?lat=-24.72375638939711&lon=-53.73533248901368&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:22,494 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:22] "GET /api/postos/proximos?lat=-24.72375638939711&lon=-53.73533248901368&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:22,756 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:22] "GET /api/postos/proximos?lat=-24.723990278191454&lon=-53.735418319702156&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:22,788 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:22] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:22,793 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:22] "GET /api/postos/proximos?lat=-24.724613979493732&lon=-53.735675811767585&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:22,806 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:22] "[35m[1mGET /api/postos/proximos?lat=-24.723990278191454&lon=-53.735160827636726&raio=5&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:39:22,814 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:22] "GET /api/postos/proximos?lat=-24.72453601700191&lon=-53.73584747314454&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:23,065 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:23] "GET /api/postos/proximos?lat=-24.72453601700191&lon=-53.735933303833015&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:23,111 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:39:23,112 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:23] "GET /api/postos/proximos?lat=-24.724613979493732&lon=-53.73550415039063&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:23,127 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:39:23,128 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:23] "GET /api/postos/proximos?lat=-24.72453601700191&lon=-53.73481750488282&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:39:23,152 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:23] "[35m[1mGET /api/postos/proximos?lat=-24.72453601700191&lon=-53.73498916625977&raio=5&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:39:23,380 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:23] "[35m[1mGET /api/postos/proximos?lat=-24.72453601700191&lon=-53.735160827636726&raio=5&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:39:23,429 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:23] "[35m[1mGET /api/postos/proximos?lat=-24.72422416654617&lon=-53.73447418212891&raio=5&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:39:23,452 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:23] "[35m[1mGET /api/postos/proximos?lat=-24.723834352377402&lon=-53.73464584350587&raio=5&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:39:23,474 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:23] "[35m[1mGET /api/postos/proximos?lat=-24.723990278191454&lon=-53.734731674194336&raio=5&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:39:23,709 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:23] "[35m[1mGET /api/postos/proximos?lat=-24.723990278191454&lon=-53.734731674194336&raio=5&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:39:23,757 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:23] "[35m[1mGET /api/postos/proximos?lat=-24.725705449250043&lon=-53.73490333557129&raio=5&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:39:23,880 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:23] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:23,887 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:23] "[35m[1mGET /api/postos/proximos?lat=-24.725159715568694&lon=-53.73558998107911&raio=5&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:39:23,947 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:23] "[35m[1mGET /api/postos/proximos?lat=-24.724458054461245&lon=-53.735675811767585&raio=5&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:39:25,941 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:25] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:25,942 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:25] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:25,968 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:25] "[35m[1mGET /api/postos/proximos?lat=-24.725315639721895&lon=-53.73507499694825&raio=5&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:39:25,972 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:25] "[35m[1mGET /api/postos/proximos?lat=-24.72679690943179&lon=-53.73464584350587&raio=5&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:39:25,974 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:25] "[35m[1mGET /api/postos/proximos?lat=-24.725393601725226&lon=-53.73456001281738&raio=5&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:39:25,981 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:25] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:27,310 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:27] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:27,312 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:27] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:27,329 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:27] "[35m[1mGET /api/postos/proximos?lat=-24.726173219071782&lon=-53.7352466583252&raio=5&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:39:27,331 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:27] "[35m[1mGET /api/postos/proximos?lat=-24.7266409871349&lon=-53.73464584350587&raio=5&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:39:29,747 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:29] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:29,772 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:29] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:39:29,803 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:29] "[35m[1mGET /api/postos/proximos?lat=-24.727108753439374&lon=-53.73713493347169&raio=5&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:39:29,818 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:29] "[35m[1mGET /api/postos/proximos?lat=-24.7266409871349&lon=-53.73464584350587&raio=5&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:39:29,821 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:39:29] "[35m[1mGET /api/postos/proximos?lat=-24.726173219071782&lon=-53.7352466583252&raio=5&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:45:12,442 - backend_flask - ERROR - Erro ao carregar KD-Tree: No module named 'numpy._core'
+2025-05-18 05:45:12,442 - backend_flask - INFO - Cache inicializado com 5009 postos
+2025-05-18 05:45:12,504 - backend_flask - ERROR - Erro ao carregar KD-Tree: No module named 'numpy._core'
+2025-05-18 05:45:12,504 - backend_flask - INFO - Cache inicializado com 5009 postos
+2025-05-18 05:45:12,546 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.68.55:5000
+2025-05-18 05:45:12,546 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-18 05:45:12,548 - werkzeug - INFO -  * Restarting with stat
+2025-05-18 05:45:13,162 - backend_flask - ERROR - Erro ao carregar KD-Tree: No module named 'numpy._core'
+2025-05-18 05:45:13,162 - backend_flask - INFO - Cache inicializado com 5009 postos
+2025-05-18 05:45:13,240 - backend_flask - ERROR - Erro ao carregar KD-Tree: No module named 'numpy._core'
+2025-05-18 05:45:13,240 - backend_flask - INFO - Cache inicializado com 5009 postos
+2025-05-18 05:45:13,254 - werkzeug - WARNING -  * Debugger is active!
+2025-05-18 05:45:13,257 - werkzeug - INFO -  * Debugger PIN: 145-227-398
+2025-05-18 05:45:22,250 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:22] "GET / HTTP/1.1" 200 -
+2025-05-18 05:45:22,305 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:22] "GET /css/styles.css HTTP/1.1" 200 -
+2025-05-18 05:45:22,456 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:22] "GET /css/markers.css HTTP/1.1" 200 -
+2025-05-18 05:45:22,609 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:22] "[33mGET /js/dados_simulados.js HTTP/1.1[0m" 404 -
+2025-05-18 05:45:22,612 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:22] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:22,613 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:22] "GET /js/api.js HTTP/1.1" 200 -
+2025-05-18 05:45:22,613 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:22] "GET /js/map.js HTTP/1.1" 200 -
+2025-05-18 05:45:22,615 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:22] "GET /js/app.js HTTP/1.1" 200 -
+2025-05-18 05:45:22,762 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:22] "GET /api/status HTTP/1.1" 200 -
+2025-05-18 05:45:22,951 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:22] "GET /api/bandeiras HTTP/1.1" 200 -
+2025-05-18 05:45:23,088 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:23] "GET /api/postos/proximos?lat=-24.7300096&lon=-53.7460736&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:23,308 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:23] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:23,311 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:23] "GET /api/postos/proximos?lat=-24.7300096&lon=-53.7460736&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:23,400 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:23] "GET /api/postos/proximos?lat=-24.72921085603756&lon=-53.74512733337403&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:23,415 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:23] "[33mGET /img/marker-location.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:23,634 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:23] "GET /api/postos/proximos?lat=-24.72952551799537&lon=-53.74520301818848&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:23,698 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:23] "GET /api/postos/proximos?lat=-24.728745921655346&lon=-53.744516372680664&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:23,730 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:23] "GET /api/postos/proximos?lat=-24.728590001801084&lon=-53.7447738647461&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:23,959 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:23] "GET /api/postos/proximos?lat=-24.72835612165329&lon=-53.74485969543457&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:24,023 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:24] "GET /api/postos/proximos?lat=-24.728590001801084&lon=-53.743915557861335&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:24,047 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:24] "GET /api/postos/proximos?lat=-24.728512041800677&lon=-53.74417304992676&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:24,273 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:24] "GET /api/postos/proximos?lat=-24.72866796175265&lon=-53.74408721923829&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:24,333 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:24] "GET /api/postos/proximos?lat=-24.726952831533286&lon=-53.74511718750001&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:24,365 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:24] "GET /api/postos/proximos?lat=-24.727654478571814&lon=-53.74468803405762&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:24,599 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:24] "GET /api/postos/proximos?lat=-24.72773243910962&lon=-53.7447738647461&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:24,644 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:24] "GET /api/postos/proximos?lat=-24.727654478571814&lon=-53.743658065795906&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:24,675 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:24] "GET /api/postos/proximos?lat=-24.727654478571814&lon=-53.744001388549805&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:24,922 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:24] "GET /api/postos/proximos?lat=-24.72781039959856&lon=-53.74382972717285&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:24,968 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:24] "GET /api/postos/proximos?lat=-24.727420596665304&lon=-53.743314743042&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:25,016 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:25] "GET /api/postos/proximos?lat=-24.726952831533286&lon=-53.74425888061524&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:25,233 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:25] "GET /api/postos/proximos?lat=-24.727108753439374&lon=-53.743915557861335&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:25,281 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:25] "GET /api/postos/proximos?lat=-24.726485064642596&lon=-53.74468803405762&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:25,331 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:25] "GET /api/postos/proximos?lat=-24.7266409871349&lon=-53.74417304992676&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:25,561 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:25] "GET /api/postos/proximos?lat=-24.72679690943179&lon=-53.743915557861335&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:25,592 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:25] "GET /api/postos/proximos?lat=-24.725549525585336&lon=-53.74434471130371&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:25,656 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:25] "GET /api/postos/proximos?lat=-24.726173219071782&lon=-53.74434471130371&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:25,884 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:25] "GET /api/postos/proximos?lat=-24.725705449250043&lon=-53.743915557861335&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:25,919 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:25] "GET /api/postos/proximos?lat=-24.725159715568694&lon=-53.744001388549805&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:25,980 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:25] "GET /api/postos/proximos?lat=-24.725705449250043&lon=-53.74322891235352&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:26,200 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:26] "GET /api/postos/proximos?lat=-24.725549525585336&lon=-53.743658065795906&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:26,245 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:26] "GET /api/postos/proximos?lat=-24.7273426359321&lon=-53.74305725097657&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:26,307 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:26] "GET /api/postos/proximos?lat=-24.7273426359321&lon=-53.74297142028809&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:26,524 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:26] "GET /api/postos/proximos?lat=-24.72773243910962&lon=-53.742456436157234&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:26,572 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:26] "GET /api/postos/proximos?lat=-24.72960347736067&lon=-53.743314743042&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:26,632 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:26] "GET /api/postos/proximos?lat=-24.728901841314187&lon=-53.742456436157234&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:26,834 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:26] "GET /api/postos/proximos?lat=-24.728823881509193&lon=-53.743314743042&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:26,898 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:26] "GET /api/postos/proximos?lat=-24.73022715052425&lon=-53.74348640441895&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:26,943 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:26] "GET /api/postos/proximos?lat=-24.728901841314187&lon=-53.743143081665046&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:27,149 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:27] "GET /api/postos/proximos?lat=-24.729291639606338&lon=-53.743658065795906&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:27,210 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:27] "GET /api/postos/proximos?lat=-24.728823881509193&lon=-53.742456436157234&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:27,257 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:27] "GET /api/postos/proximos?lat=-24.72866796175265&lon=-53.74271392822266&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:27,475 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:27] "GET /api/postos/proximos?lat=-24.72905776077761&lon=-53.74262809753419&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:27,522 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:27] "GET /api/postos/proximos?lat=-24.728278161506314&lon=-53.74176979064942&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:27,569 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:27] "GET /api/postos/proximos?lat=-24.728278161506314&lon=-53.74254226684571&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:27,796 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:27] "GET /api/postos/proximos?lat=-24.728200201310493&lon=-53.74228477478028&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:27,847 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:27] "GET /api/postos/proximos?lat=-24.72866796175265&lon=-53.74288558959962&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:27,892 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:27] "GET /api/postos/proximos?lat=-24.728590001801084&lon=-53.74288558959962&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:28,112 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:28] "GET /api/postos/proximos?lat=-24.729291639606338&lon=-53.744430541992195&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:28,158 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:28] "GET /api/postos/proximos?lat=-24.728512041800677&lon=-53.74159812927247&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:28,206 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:28] "GET /api/postos/proximos?lat=-24.728823881509193&lon=-53.74228477478028&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:28,439 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:28] "GET /api/postos/proximos?lat=-24.72936959911821&lon=-53.74211311340333&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:28,470 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:28] "GET /api/postos/proximos?lat=-24.731786319753276&lon=-53.74211311340333&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:28,517 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:28] "GET /api/postos/proximos?lat=-24.731162654406837&lon=-53.74176979064942&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:28,764 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:28] "GET /api/postos/proximos?lat=-24.73170836175597&lon=-53.74176979064942&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:28,782 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:28] "GET /api/postos/proximos?lat=-24.731318571036592&lon=-53.74288558959962&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:28,842 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:28] "GET /api/postos/proximos?lat=-24.731474487470923&lon=-53.74271392822266&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:29,074 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:29] "GET /api/postos/proximos?lat=-24.731474487470923&lon=-53.74262809753419&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:29,108 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:29] "GET /api/postos/proximos?lat=-24.730928779095755&lon=-53.74288558959962&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:29,152 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:29] "GET /api/postos/proximos?lat=-24.73124061274614&lon=-53.74202728271485&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:29,385 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:29] "GET /api/postos/proximos?lat=-24.730772861977417&lon=-53.74202728271485&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:29,432 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:29] "GET /api/postos/proximos?lat=-24.730149191549803&lon=-53.74228477478028&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:29,464 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:29] "GET /api/postos/proximos?lat=-24.73022715052425&lon=-53.743314743042&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:29,697 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:29] "GET /api/postos/proximos?lat=-24.730071232526488&lon=-53.74288558959962&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:29,742 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:29] "GET /api/postos/proximos?lat=-24.730305109449844&lon=-53.74031066894532&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:29,774 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:29] "GET /api/postos/proximos?lat=-24.730461027154462&lon=-53.741168975830085&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:30,022 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:30] "GET /api/postos/proximos?lat=-24.730538985933496&lon=-53.74082565307618&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:30,054 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:30] "GET /api/postos/proximos?lat=-24.72866796175265&lon=-53.74202728271485&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:30,099 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:30] "GET /api/postos/proximos?lat=-24.729135720436044&lon=-53.7418556213379&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:30,332 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:30] "GET /api/postos/proximos?lat=-24.728278161506314&lon=-53.74211311340333&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:30,379 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:30] "GET /api/postos/proximos?lat=-24.729993273454333&lon=-53.74056816101075&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:30,423 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:30] "GET /api/postos/proximos?lat=-24.729213680045625&lon=-53.740911483764656&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:30,642 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:30] "GET /api/postos/proximos?lat=-24.729681436677115&lon=-53.74159812927247&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:30,692 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:30] "GET /api/postos/proximos?lat=-24.729291639606338&lon=-53.740911483764656&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:30,735 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:30] "GET /api/postos/proximos?lat=-24.72936959911821&lon=-53.74176979064942&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:30,954 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:30] "GET /api/postos/proximos?lat=-24.728823881509193&lon=-53.741426467895515&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:31,016 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:31] "GET /api/postos/proximos?lat=-24.72905776077761&lon=-53.738765716552734&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:31,047 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:31] "GET /api/postos/proximos?lat=-24.729213680045625&lon=-53.73953819274903&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:31,264 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:31] "GET /api/postos/proximos?lat=-24.729681436677115&lon=-53.738164901733406&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:31,341 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:31] "GET /api/postos/proximos?lat=-24.729447558581217&lon=-53.73807907104493&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:31,359 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:31] "GET /api/postos/proximos?lat=-24.729759395944697&lon=-53.737649917602546&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:31,589 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:31] "GET /api/postos/proximos?lat=-24.729681436677115&lon=-53.73773574829102&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:31,652 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:31] "GET /api/postos/proximos?lat=-24.730928779095755&lon=-53.73730659484864&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:31,683 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:31] "GET /api/postos/proximos?lat=-24.73061694466365&lon=-53.73825073242188&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:31,899 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:31] "GET /api/postos/proximos?lat=-24.73069490334498&lon=-53.73807907104493&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:31,979 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:31] "GET /api/postos/proximos?lat=-24.73108469601867&lon=-53.738164901733406&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:32,009 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:32] "GET /api/postos/proximos?lat=-24.731006737581644&lon=-53.73910903930664&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:32,214 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:32] "GET /api/postos/proximos?lat=-24.731006737581644&lon=-53.73953819274903&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:32,291 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:32] "GET /api/postos/proximos?lat=-24.730461027154462&lon=-53.74031066894532&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:32,325 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:32] "GET /api/postos/proximos?lat=-24.731162654406837&lon=-53.739967346191406&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:32,527 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:32] "GET /api/postos/proximos?lat=-24.731162654406837&lon=-53.74013900756836&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:32,603 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:32] "GET /api/postos/proximos?lat=-24.730305109449844&lon=-53.74134063720704&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:32,650 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:32] "GET /api/postos/proximos?lat=-24.72960347736067&lon=-53.741168975830085&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:32,851 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:32] "GET /api/postos/proximos?lat=-24.729135720436044&lon=-53.74176979064942&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:32,931 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:32] "GET /api/postos/proximos?lat=-24.730149191549803&lon=-53.74048233032227&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:32,977 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:32] "GET /api/postos/proximos?lat=-24.729447558581217&lon=-53.741941452026374&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:33,163 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:33] "GET /api/postos/proximos?lat=-24.729993273454333&lon=-53.74134063720704&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:33,241 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:33] "GET /api/postos/proximos?lat=-24.729213680045625&lon=-53.74082565307618&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:33,304 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:33] "GET /api/postos/proximos?lat=-24.728200201310493&lon=-53.740396499633796&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:33,475 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:33] "GET /api/postos/proximos?lat=-24.728200201310493&lon=-53.73979568481445&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:33,552 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:33] "GET /api/postos/proximos?lat=-24.729993273454333&lon=-53.740653991699226&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:33,584 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:33] "GET /api/postos/proximos?lat=-24.729135720436044&lon=-53.74013900756836&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:33,800 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:33] "GET /api/postos/proximos?lat=-24.72936959911821&lon=-53.74056816101075&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:33,864 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:33] "GET /api/postos/proximos?lat=-24.72375638939711&lon=-53.739967346191406&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:33,912 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:33] "GET /api/postos/proximos?lat=-24.726485064642596&lon=-53.74005317687989&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:34,113 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:34] "GET /api/postos/proximos?lat=-24.726218766037228&lon=-53.74001934860231&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:34,175 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:34] "GET /api/postos/proximos?lat=-24.725783411009132&lon=-53.739967346191406&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:34,208 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:34] "GET /api/postos/proximos?lat=-24.726718948307774&lon=-53.74022483825684&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:34,233 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:34] "GET /api/postos/proximos?lat=-24.72609525755696&lon=-53.74056816101075&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:34,424 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:34] "GET /api/postos/proximos?lat=-24.726251180537748&lon=-53.739967346191406&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:34,500 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:34] "GET /api/postos/proximos?lat=-24.7266409871349&lon=-53.739709854125984&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:34,531 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:34] "GET /api/postos/proximos?lat=-24.727966320429903&lon=-53.74022483825684&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:34,549 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:34] "GET /api/postos/proximos?lat=-24.727264675150042&lon=-53.739967346191406&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:34,748 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:34] "GET /api/postos/proximos?lat=-24.7273426359321&lon=-53.73953819274903&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:34,826 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:34] "GET /api/postos/proximos?lat=-24.727420596665304&lon=-53.739280700683594&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:34,858 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:34] "GET /api/postos/proximos?lat=-24.7266409871349&lon=-53.743143081665046&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:34,864 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:34] "GET /api/postos/proximos?lat=-24.72749855734967&lon=-53.74125480651856&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:35,063 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:35] "GET /api/postos/proximos?lat=-24.72749855734967&lon=-53.74108314514161&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:35,150 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:35] "GET /api/postos/proximos?lat=-24.72749855734967&lon=-53.741168975830085&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:35,175 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:35] "GET /api/postos/proximos?lat=-24.72781039959856&lon=-53.7418556213379&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:35,190 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:35] "GET /api/postos/proximos?lat=-24.728044280772284&lon=-53.73979568481445&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:35,382 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:35] "GET /api/postos/proximos?lat=-24.728122241065808&lon=-53.740396499633796&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:35,476 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:35] "GET /api/postos/proximos?lat=-24.728590001801084&lon=-53.74056816101075&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:35,493 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:35] "GET /api/postos/proximos?lat=-24.729213680045625&lon=-53.74013900756836&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:35,507 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:35] "GET /api/postos/proximos?lat=-24.728823881509193&lon=-53.74048233032227&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:35,692 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:35] "GET /api/postos/proximos?lat=-24.728823881509193&lon=-53.74082565307618&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:35,805 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:35] "GET /api/postos/proximos?lat=-24.728979801070327&lon=-53.740653991699226&raio=5&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:35,810 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:35] "GET /api/postos/proximos?lat=-24.729213680045625&lon=-53.740911483764656&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:35,833 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:35] "GET /api/postos/proximos?lat=-24.730538985933496&lon=-53.74134063720704&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:36,004 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:36] "GET /api/postos/proximos?lat=-24.729993273454333&lon=-53.741426467895515&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:36,130 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:36] "GET /api/postos/proximos?lat=-24.729759395944697&lon=-53.74134063720704&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:36,134 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:36] "GET /api/postos/proximos?lat=-24.73061694466365&lon=-53.74048233032227&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:36,151 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:36] "GET /api/postos/proximos?lat=-24.730538985933496&lon=-53.74108314514161&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:36,330 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:36] "GET /api/postos/proximos?lat=-24.730461027154462&lon=-53.74108314514161&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:36,442 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:36] "GET /api/postos/proximos?lat=-24.730383068326585&lon=-53.74108314514161&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:36,452 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:36] "GET /api/postos/proximos?lat=-24.730305109449844&lon=-53.74134063720704&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:36,464 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:36] "GET /api/postos/proximos?lat=-24.730538985933496&lon=-53.74031066894532&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:36,646 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:36] "GET /api/postos/proximos?lat=-24.730538985933496&lon=-53.74048233032227&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:36,752 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:36] "GET /api/postos/proximos?lat=-24.730461027154462&lon=-53.740653991699226&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:36,771 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:36] "GET /api/postos/proximos?lat=-24.730305109449844&lon=-53.738765716552734&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:36,780 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:36] "GET /api/postos/proximos?lat=-24.73022715052425&lon=-53.739709854125984&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:36,973 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:36] "GET /api/postos/proximos?lat=-24.73022715052425&lon=-53.7396240234375&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:37,067 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:37] "GET /api/postos/proximos?lat=-24.730149191549803&lon=-53.739194869995124&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:37,097 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:37] "GET /api/postos/proximos?lat=-24.729681436677115&lon=-53.738765716552734&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:37,102 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:37] "GET /api/postos/proximos?lat=-24.731162654406837&lon=-53.739280700683594&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:37,299 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:37] "GET /api/postos/proximos?lat=-24.730850820561024&lon=-53.73945236206055&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:37,397 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:37] "GET /api/postos/proximos?lat=-24.73069490334498&lon=-53.73936653137208&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:37,414 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:37] "GET /api/postos/proximos?lat=-24.73163040370981&lon=-53.73979568481445&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:37,427 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:37] "GET /api/postos/proximos?lat=-24.729993273454333&lon=-53.74005317687989&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:37,610 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:37] "GET /api/postos/proximos?lat=-24.730149191549803&lon=-53.74005317687989&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:37,720 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:37] "GET /api/postos/proximos?lat=-24.73022715052425&lon=-53.74031066894532&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:37,726 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:37] "GET /api/postos/proximos?lat=-24.72952551799537&lon=-53.73893737792969&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:37,746 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:37] "GET /api/postos/proximos?lat=-24.72960347736067&lon=-53.74005317687989&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:37,922 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:37] "GET /api/postos/proximos?lat=-24.729837355163436&lon=-53.74005317687989&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:38,036 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:38] "GET /api/postos/proximos?lat=-24.729837355163436&lon=-53.739709854125984&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:38,046 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:38] "GET /api/postos/proximos?lat=-24.72952551799537&lon=-53.739967346191406&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:38,076 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:38] "GET /api/postos/proximos?lat=-24.729681436677115&lon=-53.74022483825684&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:38,245 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:38] "GET /api/postos/proximos?lat=-24.72960347736067&lon=-53.739967346191406&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:38,357 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:38] "GET /api/postos/proximos?lat=-24.72952551799537&lon=-53.74005317687989&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:38,432 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:38] "GET /api/postos/proximos?lat=-24.72936959911821&lon=-53.74005317687989&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:38,495 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:38] "GET /api/postos/proximos?lat=-24.728278161506314&lon=-53.74013900756836&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:38,557 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:38] "GET /api/postos/proximos?lat=-24.72905776077761&lon=-53.74108314514161&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:38,681 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:38] "GET /api/postos/proximos?lat=-24.729291639606338&lon=-53.740653991699226&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:38,760 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:38] "GET /api/postos/proximos?lat=-24.728745921655346&lon=-53.74022483825684&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:38,809 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:38] "GET /api/postos/proximos?lat=-24.72905776077761&lon=-53.74048233032227&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:38,885 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:38] "GET /api/postos/proximos?lat=-24.728979801070327&lon=-53.74013900756836&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:38,994 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:38] "GET /api/postos/proximos?lat=-24.728901841314187&lon=-53.74013900756836&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:39,087 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:39] "GET /api/postos/proximos?lat=-24.72905776077761&lon=-53.74005317687989&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:39,133 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:39] "GET /api/postos/proximos?lat=-24.729447558581217&lon=-53.74048233032227&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:39,202 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:39] "GET /api/postos/proximos?lat=-24.727264675150042&lon=-53.740653991699226&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:39,307 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:39] "GET /api/postos/proximos?lat=-24.72866796175265&lon=-53.7407398223877&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:39,398 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:39] "GET /api/postos/proximos?lat=-24.728901841314187&lon=-53.74082565307618&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:39,447 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:39] "GET /api/postos/proximos?lat=-24.727966320429903&lon=-53.739967346191406&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:39,524 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:39] "GET /api/postos/proximos?lat=-24.728278161506314&lon=-53.74031066894532&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:39,631 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:39] "GET /api/postos/proximos?lat=-24.72788836003866&lon=-53.74022483825684&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:39,709 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:39] "GET /api/postos/proximos?lat=-24.728590001801084&lon=-53.73988151550294&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:39,776 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:39] "GET /api/postos/proximos?lat=-24.728745921655346&lon=-53.74031066894532&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:39,833 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:39] "GET /api/postos/proximos?lat=-24.72835612165329&lon=-53.739967346191406&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:39,946 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:39] "GET /api/postos/proximos?lat=-24.729135720436044&lon=-53.74022483825684&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:40,023 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:40] "GET /api/postos/proximos?lat=-24.729213680045625&lon=-53.74048233032227&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:40,159 - backend_flask - WARNING - Índice R-tree não disponível
+2025-05-18 05:45:40,160 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:40] "GET /api/postos/proximos?lat=-24.728122241065808&lon=-53.73910903930664&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:40,177 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:40] "[35m[1mGET /api/postos/proximos?lat=-24.729291639606338&lon=-53.7396240234375&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:45:40,268 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:40] "GET /api/postos/proximos?lat=-24.729681436677115&lon=-53.74048233032227&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:40,339 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:40] "GET /api/postos/proximos?lat=-24.72952551799537&lon=-53.73988151550294&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:40,472 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:40] "GET /api/postos/proximos?lat=-24.729681436677115&lon=-53.739967346191406&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:40,517 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:40] "GET /api/postos/proximos?lat=-24.729759395944697&lon=-53.739967346191406&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:40,595 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:40] "GET /api/postos/proximos?lat=-24.72960347736067&lon=-53.73988151550294&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:40,734 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:40] "GET /api/postos/proximos?lat=-24.72905776077761&lon=-53.73979568481445&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:40,798 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:40] "GET /api/postos/proximos?lat=-24.72749855734967&lon=-53.73988151550294&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:40,829 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:40] "GET /api/postos/proximos?lat=-24.728979801070327&lon=-53.740911483764656&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:40,910 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:40] "GET /api/postos/proximos?lat=-24.72905776077761&lon=-53.74031066894532&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:41,064 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:41] "GET /api/postos/proximos?lat=-24.729135720436044&lon=-53.74031066894532&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:41,114 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:41] "GET /api/postos/proximos?lat=-24.72905776077761&lon=-53.73988151550294&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:41,173 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:41] "GET /api/postos/proximos?lat=-24.729291639606338&lon=-53.739280700683594&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:41,264 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:41] "GET /api/postos/proximos?lat=-24.72936959911821&lon=-53.7396240234375&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:41,389 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:41] "GET /api/postos/proximos?lat=-24.728901841314187&lon=-53.73953819274903&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:41,433 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:41] "GET /api/postos/proximos?lat=-24.729447558581217&lon=-53.739280700683594&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:41,495 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:41] "GET /api/postos/proximos?lat=-24.72936959911821&lon=-53.738679885864265&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:41,589 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:41] "GET /api/postos/proximos?lat=-24.729291639606338&lon=-53.738679885864265&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:41,700 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:41] "GET /api/postos/proximos?lat=-24.72936959911821&lon=-53.73902320861817&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:41,748 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:41] "GET /api/postos/proximos?lat=-24.729447558581217&lon=-53.739194869995124&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:41,809 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:41] "GET /api/postos/proximos?lat=-24.727654478571814&lon=-53.73825073242188&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:41,902 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:41] "GET /api/postos/proximos?lat=-24.728278161506314&lon=-53.73833656311036&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:42,011 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:42] "GET /api/postos/proximos?lat=-24.72781039959856&lon=-53.738765716552734&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:42,067 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:42] "GET /api/postos/proximos?lat=-24.729291639606338&lon=-53.738765716552734&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:42,129 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:42] "GET /api/postos/proximos?lat=-24.72936959911821&lon=-53.73979568481445&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:42,213 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:42] "GET /api/postos/proximos?lat=-24.729135720436044&lon=-53.73936653137208&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:42,324 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:42] "GET /api/postos/proximos?lat=-24.731045716806264&lon=-53.74284267425538&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:42,349 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:42] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:42,618 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:42] "GET /api/postos/proximos?lat=-24.730772861977417&lon=-53.74211311340333&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:42,912 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:42] "GET /api/postos/proximos?lat=-24.731162654406837&lon=-53.74254226684571&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:42,947 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:42] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:43,214 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:43] "GET /api/postos/proximos?lat=-24.730772861977417&lon=-53.74108314514161&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:43,491 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:43] "GET /api/postos/proximos?lat=-24.73069490334498&lon=-53.74211311340333&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:43,524 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:43] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:43,776 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:43] "GET /api/postos/proximos?lat=-24.732371003175658&lon=-53.74558925628663&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:43,864 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:43] "GET /api/postos/proximos?lat=-24.73256589703904&lon=-53.74550342559815&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:44,082 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:44] "GET /api/postos/proximos?lat=-24.730972988423602&lon=-53.746585084533685&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:44,093 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:44] "GET /api/postos/proximos?lat=-24.73108469601867&lon=-53.74649047851563&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:44,360 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:44] "GET /api/postos/proximos?lat=-24.731006737581644&lon=-53.74649047851563&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:44,398 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:44] "GET /api/postos/proximos?lat=-24.73139652927819&lon=-53.7462329864502&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:44,410 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:44] "GET /api/postos/proximos?lat=-24.7315524456148&lon=-53.74674797058106&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:44,660 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:44] "GET /api/postos/proximos?lat=-24.73170836175597&lon=-53.746662139892585&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:44,725 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:44] "GET /api/postos/proximos?lat=-24.731942235601302&lon=-53.746919631958015&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:44,728 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:44] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:44,892 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:44] "GET /api/postos/proximos?lat=-24.733657297030625&lon=-53.750181198120124&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:45,047 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:45] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:45,155 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:45] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:45,470 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:45] "GET /api/postos/proximos?lat=-24.7343589062538&lon=-53.746662139892585&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:45,733 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:45] "GET /api/postos/proximos?lat=-24.735606201766874&lon=-53.74872207641602&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:45,781 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:45] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:45,782 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:45] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:46,048 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:46] "GET /api/postos/proximos?lat=-24.735450290511825&lon=-53.74855041503907&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:46,292 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:46] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:46,371 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:46] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:46,373 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:46] "GET /api/postos/proximos?lat=-24.738802339420104&lon=-53.74983787536622&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:46,621 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:46] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:46,683 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:46] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:46,685 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:46] "GET /api/postos/proximos?lat=-24.74340151529225&lon=-53.749752044677734&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:46,931 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:46] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:46,997 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:46] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:46,999 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:46] "GET /api/postos/proximos?lat=-24.742855859253176&lon=-53.749151229858406&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:47,257 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:47] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:47,316 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:47] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:47,317 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:47] "GET /api/postos/proximos?lat=-24.743167662997326&lon=-53.750267028808594&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:47,569 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:47] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:47,631 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:47] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:47,633 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:47] "GET /api/postos/proximos?lat=-24.74488256961161&lon=-53.75387191772462&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:47,895 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:47] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:47,946 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:47] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:47,947 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:47] "GET /api/postos/proximos?lat=-24.742699957087844&lon=-53.753185272216804&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:48,208 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:48] "GET /api/postos/proximos?lat=-24.74332356457615&lon=-53.75507354736329&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:48,271 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:48] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:48,272 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:48] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:48,522 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:48] "GET /api/postos/proximos?lat=-24.741764539990466&lon=-53.75515937805176&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:48,769 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:48] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:48,832 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:48] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:48,833 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:48] "GET /api/postos/proximos?lat=-24.74293381026252&lon=-53.75249862670899&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:49,083 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:49] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:49,147 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:49] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:49,149 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:49] "GET /api/postos/proximos?lat=-24.74355741657781&lon=-53.750696182250984&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:49,413 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:49] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:49,458 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:49] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:49,459 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:49] "GET /api/postos/proximos?lat=-24.744103069537715&lon=-53.75112533569337&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:49,719 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:49] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:49,781 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:49] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:49,785 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:49] "GET /api/postos/proximos?lat=-24.744103069537715&lon=-53.751640319824226&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:50,029 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:50] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:50,105 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:50] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:50,107 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:50] "GET /api/postos/proximos?lat=-24.74355741657781&lon=-53.75206947326661&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:50,353 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:50] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:50,431 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:50] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:50,432 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:50] "GET /api/postos/proximos?lat=-24.742855859253176&lon=-53.75275611877442&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:50,678 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:50] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:50,756 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:50] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:50,758 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:50] "GET /api/postos/proximos?lat=-24.74332356457615&lon=-53.75335693359376&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:51,008 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:51] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:51,071 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:51] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:51,073 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:51] "GET /api/postos/proximos?lat=-24.743791268139606&lon=-53.75146865844727&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:51,334 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:51] "GET /api/postos/proximos?lat=-24.744414870153793&lon=-53.748893737792976&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:51,382 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:51] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:51,384 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:51] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:51,646 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:51] "GET /api/postos/proximos?lat=-24.744181019765055&lon=-53.75301361083985&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:51,907 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:51] "GET /api/postos/proximos?lat=-24.745272317815637&lon=-53.754129409790046&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:51,955 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:51] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:51,957 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:51] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:52,208 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:52] "GET /api/postos/proximos?lat=-24.74519436827259&lon=-53.75361442565919&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:52,491 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:52] "GET /api/postos/proximos?lat=-24.74558411549905&lon=-53.75370025634766&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:52,523 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:52] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:52,524 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:52] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:52,784 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:52] "GET /api/postos/proximos?lat=-24.746051810557816&lon=-53.75395774841309&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:53,065 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:53] "GET /api/postos/proximos?lat=-24.74558411549905&lon=-53.75404357910157&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:53,095 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:53] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:53,096 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:53] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:53,360 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:53] "GET /api/postos/proximos?lat=-24.74464872010264&lon=-53.75395774841309&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:53,642 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:53] "GET /api/postos/proximos?lat=-24.74433692007308&lon=-53.75352859497071&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:53,673 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:53] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:53,674 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:53] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:53,938 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:53] "GET /api/postos/proximos?lat=-24.74433692007308&lon=-53.75395774841309&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:54,207 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:54] "GET /api/postos/proximos?lat=-24.744414870153793&lon=-53.75232696533204&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:54,260 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:54] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:54,261 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:54] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:54,509 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:54] "GET /api/postos/proximos?lat=-24.74340151529225&lon=-53.75679016113282&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:54,791 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:54] "GET /api/postos/proximos?lat=-24.74293381026252&lon=-53.755502700805664&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:54,819 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:54] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:54,820 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:54] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:55,058 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:55] "GET /api/postos/proximos?lat=-24.7423881521707&lon=-53.75395774841309&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:55,381 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:55] "GET /api/postos/proximos?lat=-24.74043935372196&lon=-53.75361442565919&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:55,606 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:55] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:55,651 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:55] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:55,658 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:55] "GET /api/postos/proximos?lat=-24.73965982578988&lon=-53.75309944152833&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:55,967 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:55] "GET /api/postos/proximos?lat=-24.73895824647261&lon=-53.749752044677734&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:55,980 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:55] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:55,981 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:55] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:56,240 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:56] "GET /api/postos/proximos?lat=-24.74020549585548&lon=-53.75009536743164&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:56,547 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:56] "GET /api/postos/proximos?lat=-24.740127543135582&lon=-53.7506103515625&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:56,559 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:56] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:56,561 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:56] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:56,821 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:56] "GET /api/postos/proximos?lat=-24.73732121267197&lon=-53.750267028808594&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:57,129 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:57] "GET /api/postos/proximos?lat=-24.739036199925565&lon=-53.750181198120124&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:57,140 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:57] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:57,142 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:57] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:57,421 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:57] "GET /api/postos/proximos?lat=-24.739348013248684&lon=-53.750696182250984&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:57,721 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:57] "GET /api/postos/proximos?lat=-24.739737778803&lon=-53.752155303955085&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:57,728 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:57] "[35m[1mGET /api/postos/proximos?lat=-24.740325418609533&lon=-53.75343082010475&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:45:57,747 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:57] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:57,749 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:57] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:58,014 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:58] "GET /api/postos/proximos?lat=-24.73981573176727&lon=-53.752155303955085&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:58,075 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:58] "GET /api/postos/proximos?lat=-24.73965982578988&lon=-53.7517261505127&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:58,326 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:58] "GET /api/postos/proximos?lat=-24.73981573176727&lon=-53.7517261505127&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:58,331 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:58] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:58,332 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:58] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:58,420 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:58] "GET /api/postos/proximos?lat=-24.739737778803&lon=-53.75301361083985&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:58,653 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:58] "GET /api/postos/proximos?lat=-24.740907068135392&lon=-53.75146865844727&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:58,742 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:58] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:58,746 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:58] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:58,748 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:58] "GET /api/postos/proximos?lat=-24.73989368468266&lon=-53.75258445739747&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:58,981 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:58] "GET /api/postos/proximos?lat=-24.741218876766915&lon=-53.75206947326661&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:59,072 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:59] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:59,074 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:59] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:59,075 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:59] "GET /api/postos/proximos?lat=-24.738178709255294&lon=-53.75035285949708&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:59,308 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:59] "GET /api/postos/proximos?lat=-24.73981573176727&lon=-53.751897811889656&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:59,386 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:59] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:59,387 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:59] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:59,391 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:59] "GET /api/postos/proximos?lat=-24.740829115855338&lon=-53.75121116638184&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:59,636 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:59] "GET /api/postos/proximos?lat=-24.7412968288026&lon=-53.751897811889656&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:59,711 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:59] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:59,712 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:59] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:45:59,712 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:59] "GET /api/postos/proximos?lat=-24.742544054727023&lon=-53.75000953674317&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:45:59,961 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:45:59] "GET /api/postos/proximos?lat=-24.741764539990466&lon=-53.75121116638184&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:46:00,037 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:00] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:00,037 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:00] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:00,039 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:00] "GET /api/postos/proximos?lat=-24.74332356457615&lon=-53.74983787536622&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:46:00,273 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:00] "GET /api/postos/proximos?lat=-24.742544054727023&lon=-53.75043869018555&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:46:00,363 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:00] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:00,363 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:00] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:00,365 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:00] "GET /api/postos/proximos?lat=-24.743947168936405&lon=-53.749752044677734&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:46:00,602 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:00] "GET /api/postos/proximos?lat=-24.745662064797706&lon=-53.750181198120124&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:46:00,690 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:00] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:00,692 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:00] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:00,696 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:00] "GET /api/postos/proximos?lat=-24.743869218562445&lon=-53.74812126159669&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:46:00,928 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:00] "GET /api/postos/proximos?lat=-24.745350267309803&lon=-53.749666213989265&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:46:01,018 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:01] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:01,021 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:01] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:01,022 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:01] "GET /api/postos/proximos?lat=-24.74488256961161&lon=-53.747949600219734&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:46:01,259 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:01] "GET /api/postos/proximos?lat=-24.745506166151518&lon=-53.75043869018555&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:46:01,348 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:01] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:01,349 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:01] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:01,351 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:01] "GET /api/postos/proximos?lat=-24.74464872010264&lon=-53.746147155761726&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:46:01,582 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:01] "GET /api/postos/proximos?lat=-24.745038469039844&lon=-53.74872207641602&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:46:01,680 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:01] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:01,682 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:01] "GET /api/postos/proximos?lat=-24.745350267309803&lon=-53.74657630920411&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:46:01,686 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:01] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:01,912 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:01] "GET /api/postos/proximos?lat=-24.744025119261487&lon=-53.7488079071045&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:46:02,001 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:02] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:02,003 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:02] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:02,005 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:02] "GET /api/postos/proximos?lat=-24.74519436827259&lon=-53.74649047851563&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:46:02,241 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:02] "GET /api/postos/proximos?lat=-24.744258969943512&lon=-53.74760627746583&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:46:02,319 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:02] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:02,321 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:02] "GET /api/postos/proximos?lat=-24.74558411549905&lon=-53.747177124023445&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:46:02,323 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:02] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:02,554 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:02] "GET /api/postos/proximos?lat=-24.744025119261487&lon=-53.74872207641602&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:46:02,637 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:02] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:02,640 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:02] "GET /api/postos/proximos?lat=-24.74558411549905&lon=-53.747692108154304&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:46:02,878 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:02] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:02,880 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:02] "GET /api/postos/proximos?lat=-24.74519436827259&lon=-53.74820709228516&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:46:02,970 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:02] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:02,973 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:02] "GET /api/postos/proximos?lat=-24.74519436827259&lon=-53.746147155761726&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:46:03,206 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:03] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:03,209 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:03] "GET /api/postos/proximos?lat=-24.745506166151518&lon=-53.74752044677735&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:46:03,295 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:03] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:03,297 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:03] "GET /api/postos/proximos?lat=-24.744103069537715&lon=-53.744516372680664&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:46:03,532 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:03] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:03,532 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:03] "GET /api/postos/proximos?lat=-24.74464872010264&lon=-53.74631881713868&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:46:03,615 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:03] "GET /api/postos/proximos?lat=-24.743011761223002&lon=-53.744430541992195&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:46:03,630 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:03] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:03,860 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:03] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:03,865 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:03] "GET /api/postos/proximos?lat=-24.744181019765055&lon=-53.74563217163087&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:46:03,939 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:03] "GET /api/postos/proximos?lat=-24.74246610347331&lon=-53.74425888061524&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:46:04,175 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:04] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:04,176 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:04] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:04,177 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:04] "GET /api/postos/proximos?lat=-24.74293381026252&lon=-53.74503135681152&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:46:04,254 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:04] "GET /api/postos/proximos?lat=-24.742076346471578&lon=-53.743915557861335&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:46:04,505 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:04] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:04,506 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:04] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:04,511 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:04] "GET /api/postos/proximos?lat=-24.742544054727023&lon=-53.744001388549805&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:46:04,570 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:04] "GET /api/postos/proximos?lat=-24.74433692007308&lon=-53.74417304992676&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:46:04,834 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:04] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:04,836 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:04] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:04,837 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:04] "GET /api/postos/proximos?lat=-24.743869218562445&lon=-53.74382972717285&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:46:04,895 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:04] "GET /api/postos/proximos?lat=-24.74347946595947&lon=-53.74348640441895&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:46:05,147 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:05] "GET /api/postos/proximos?lat=-24.743791268139606&lon=-53.74357223510743&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:46:05,165 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:05] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:05,166 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:05] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:05,224 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:05] "GET /api/postos/proximos?lat=-24.743713317667886&lon=-53.743658065795906&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:46:05,478 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:05] "GET /api/postos/proximos?lat=-24.743713317667886&lon=-53.743658065795906&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:46:05,539 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:05] "GET /api/postos/proximos?lat=-24.744025119261487&lon=-53.74348640441895&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:46:05,540 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:05] "GET /api/postos/proximos?lat=-24.744258969943512&lon=-53.74228477478028&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:46:05,542 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:05] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:05,543 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:05] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:05,791 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:05] "GET /api/postos/proximos?lat=-24.744414870153793&lon=-53.74382972717285&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:46:05,857 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:05] "GET /api/postos/proximos?lat=-24.744258969943512&lon=-53.74382972717285&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:46:05,865 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:05] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:05,869 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:05] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:05,871 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:05] "GET /api/postos/proximos?lat=-24.744025119261487&lon=-53.74151229858399&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:46:06,116 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:06] "GET /api/postos/proximos?lat=-24.743245613811172&lon=-53.74254226684571&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:46:06,178 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:06] "GET /api/postos/proximos?lat=-24.743011761223002&lon=-53.74288558959962&raio=1&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:46:06,240 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:06] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:06,278 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:06] "[35m[1mGET /api/postos/proximos?lat=-24.74223224941889&lon=-53.74159812927247&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:06,281 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:06] "[35m[1mGET /api/postos/proximos?lat=-24.7423881521707&lon=-53.742456436157234&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:06,446 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:06] "[35m[1mGET /api/postos/proximos?lat=-24.742699957087844&lon=-53.74254226684571&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:06,510 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:06] "[35m[1mGET /api/postos/proximos?lat=-24.742622005931874&lon=-53.74202728271485&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:06,608 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:06] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:06,618 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:06] "[35m[1mGET /api/postos/proximos?lat=-24.74332356457615&lon=-53.73979568481445&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:06,620 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:06] "[35m[1mGET /api/postos/proximos?lat=-24.742622005931874&lon=-53.740911483764656&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:06,774 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:06] "[35m[1mGET /api/postos/proximos?lat=-24.742699957087844&lon=-53.74159812927247&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:06,837 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:06] "[35m[1mGET /api/postos/proximos?lat=-24.74277790819495&lon=-53.74151229858399&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:06,940 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:06] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:06,957 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:06] "[35m[1mGET /api/postos/proximos?lat=-24.74293381026252&lon=-53.7418556213379&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:06,963 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:06] "[35m[1mGET /api/postos/proximos?lat=-24.74277790819495&lon=-53.74176979064942&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:07,102 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:07] "[35m[1mGET /api/postos/proximos?lat=-24.743089712134605&lon=-53.741683959960945&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:07,179 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:07] "[35m[1mGET /api/postos/proximos?lat=-24.742855859253176&lon=-53.7418556213379&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:07,295 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:07] "GET /api/postos/busca?q=toledo&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:46:07,314 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:07] "[35m[1mGET /api/postos/proximos?lat=-24.74340151529225&lon=-53.74279975891114&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:07,322 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:07] "[35m[1mGET /api/postos/proximos?lat=-24.743089712134605&lon=-53.74228477478028&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:07,427 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:07] "[35m[1mGET /api/postos/proximos?lat=-24.744103069537715&lon=-53.74151229858399&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:07,449 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:07] "[35m[1mGET /api/postos/proximos?lat=-24.744025119261487&lon=-53.741683959960945&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:07,507 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:07] "[35m[1mGET /api/postos/proximos?lat=-24.745973861503543&lon=-53.7418556213379&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:07,656 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:07] "[35m[1mGET /api/postos/proximos?lat=-24.74574001404748&lon=-53.741683959960945&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:07,658 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:07] "[35m[1mGET /api/postos/proximos?lat=-24.74511641868065&lon=-53.741683959960945&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:07,754 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:07] "[35m[1mGET /api/postos/proximos?lat=-24.74823436423164&lon=-53.741941452026374&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:07,774 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:07] "[35m[1mGET /api/postos/proximos?lat=-24.748000521028217&lon=-53.74202728271485&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:07,834 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:07] "[35m[1mGET /api/postos/proximos?lat=-24.745506166151518&lon=-53.74176979064942&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:07,972 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:07] "[35m[1mGET /api/postos/proximos?lat=-24.745895912400407&lon=-53.74134063720704&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:07,990 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:07] "[35m[1mGET /api/postos/proximos?lat=-24.746909246928627&lon=-53.73953819274903&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:08,090 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:08] "[35m[1mGET /api/postos/proximos?lat=-24.7461297595632&lon=-53.74048233032227&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:08,109 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:08] "[35m[1mGET /api/postos/proximos?lat=-24.7461297595632&lon=-53.74031066894532&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:08,176 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:08] "[35m[1mGET /api/postos/proximos?lat=-24.746441555095934&lon=-53.73885154724122&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:08,299 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:08] "[35m[1mGET /api/postos/proximos?lat=-24.746285657427325&lon=-53.739194869995124&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:08,323 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:08] "[35m[1mGET /api/postos/proximos?lat=-24.7461297595632&lon=-53.739280700683594&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:08,417 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:08] "[35m[1mGET /api/postos/proximos?lat=-24.746831298412044&lon=-53.73936653137208&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:08,432 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:08] "[35m[1mGET /api/postos/proximos?lat=-24.74651950385691&lon=-53.739280700683594&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:08,497 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:08] "[35m[1mGET /api/postos/proximos?lat=-24.745350267309803&lon=-53.73910903930664&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:08,622 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:08] "[35m[1mGET /api/postos/proximos?lat=-24.74558411549905&lon=-53.739194869995124&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:08,650 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:08] "GET /api/postos/busca?q=toledo&limite=50 HTTP/1.1" 200 -
+2025-05-18 05:46:08,746 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:08] "[35m[1mGET /api/postos/proximos?lat=-24.745272317815637&lon=-53.73936653137208&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:08,750 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:08] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:08,760 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:08] "[35m[1mGET /api/postos/proximos?lat=-24.746753349846575&lon=-53.73825073242188&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:08,825 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:08] "[35m[1mGET /api/postos/proximos?lat=-24.745895912400407&lon=-53.740653991699226&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:08,954 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:08] "[35m[1mGET /api/postos/proximos?lat=-24.745506166151518&lon=-53.74056816101075&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:09,079 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:09] "[35m[1mGET /api/postos/proximos?lat=-24.745895912400407&lon=-53.73953819274903&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:09,124 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:09] "[35m[1mGET /api/postos/proximos?lat=-24.74480461982416&lon=-53.74048233032227&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:09,129 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:09] "[35m[1mGET /api/postos/proximos?lat=-24.744414870153793&lon=-53.74031066894532&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:09,182 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:09] "[35m[1mGET /api/postos/proximos?lat=-24.74472666998785&lon=-53.74022483825684&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:09,279 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:09] "[35m[1mGET /api/postos/proximos?lat=-24.7300096&lon=-53.7460736&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:09,399 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:09] "[35m[1mGET /api/postos/proximos?lat=-24.729993273454333&lon=-53.74606132507325&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:09,411 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:09] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:09,438 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:09] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:09,668 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:09] "[33mGET /img/marker-location.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:09,991 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:09] "[35m[1mGET /api/postos/proximos?lat=-24.72991531433331&lon=-53.746404647827156&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:10,251 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:10] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:10,318 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:10] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:10,328 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:10] "[35m[1mGET /api/postos/proximos?lat=-24.729681436677115&lon=-53.746662139892585&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:10,563 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:10] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:10,641 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:10] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:10,655 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:10] "[35m[1mGET /api/postos/proximos?lat=-24.73022715052425&lon=-53.74597549438477&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:10,891 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:10] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:10,971 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:10] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:10,979 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:10] "[35m[1mGET /api/postos/proximos?lat=-24.730538985933496&lon=-53.74571800231934&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:11,220 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:11] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:11,299 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:11] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:11,306 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:11] "[35m[1mGET /api/postos/proximos?lat=-24.730772861977417&lon=-53.74546051025391&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:11,545 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:11] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:11,624 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:11] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:11,630 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:11] "[35m[1mGET /api/postos/proximos?lat=-24.730383068326585&lon=-53.742456436157234&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:11,873 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:11] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:11,950 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:11] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:11,961 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:11] "[35m[1mGET /api/postos/proximos?lat=-24.730538985933496&lon=-53.74297142028809&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:12,198 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:12] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:12,280 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:12] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:12,288 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:12] "[35m[1mGET /api/postos/proximos?lat=-24.730149191549803&lon=-53.743314743042&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:12,527 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:12] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:12,607 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:12] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:12,617 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:12] "[35m[1mGET /api/postos/proximos?lat=-24.729291639606338&lon=-53.74237060546876&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:12,869 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:12] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:12,933 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:12] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:12,942 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:12] "[35m[1mGET /api/postos/proximos?lat=-24.72866796175265&lon=-53.74434471130371&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:13,195 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:13] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:13,259 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:13] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:13,265 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:13] "[35m[1mGET /api/postos/proximos?lat=-24.729291639606338&lon=-53.74649047851563&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:13,507 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:13] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:13,586 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:13] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:13,595 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:13] "[35m[1mGET /api/postos/proximos?lat=-24.72609525755696&lon=-53.74511718750001&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:13,836 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:13] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:13,914 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:13] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:13,920 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:13] "[35m[1mGET /api/postos/proximos?lat=-24.726017295993273&lon=-53.747434616088874&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:14,163 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:14] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:14,245 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:14] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:14,251 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:14] "[35m[1mGET /api/postos/proximos?lat=-24.725939334380733&lon=-53.7462329864502&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:14,481 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:14] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:14,565 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:14] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:14,573 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:14] "[35m[1mGET /api/postos/proximos?lat=-24.725705449250043&lon=-53.74760627746583&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:14,830 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:14] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:14,895 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:14] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:14,902 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:14] "[35m[1mGET /api/postos/proximos?lat=-24.72640710332316&lon=-53.74631881713868&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:15,145 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:15] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:15,224 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:15] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:15,233 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:15] "[35m[1mGET /api/postos/proximos?lat=-24.725627487442114&lon=-53.74580383300782&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:15,472 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:15] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:15,548 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:15] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:15,555 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:15] "[35m[1mGET /api/postos/proximos?lat=-24.72453601700191&lon=-53.745889663696296&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:15,813 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:15] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:15,874 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:15] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:15,882 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:15] "[35m[1mGET /api/postos/proximos?lat=-24.725783411009132&lon=-53.74417304992676&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:16,124 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:16] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:16,199 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:16] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:16,208 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:16] "[35m[1mGET /api/postos/proximos?lat=-24.72640710332316&lon=-53.743400573730476&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:16,458 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:16] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:16,529 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:16] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:16,540 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:16] "[35m[1mGET /api/postos/proximos?lat=-24.725081753418802&lon=-53.74211311340333&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:16,776 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:16] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:16,863 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:16] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:16,873 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:16] "[35m[1mGET /api/postos/proximos?lat=-24.725081753418802&lon=-53.74048233032227&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:17,118 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:17] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:17,189 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:17] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:17,197 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:17] "[35m[1mGET /api/postos/proximos?lat=-24.72430212923337&lon=-53.74005317687989&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:17,448 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:17] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:17,529 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:17] "[33mGET /img/marker-shadow.png HTTP/1.1[0m" 404 -
+2025-05-18 05:46:17,542 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:17] "[35m[1mGET /api/postos/proximos?lat=-24.72422416654617&lon=-53.73979568481445&raio=1&limite=50 HTTP/1.1[0m" 500 -
+2025-05-18 05:46:17,774 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 05:46:17] "[33mGET /img/marker-gas.png HTTP/1.1[0m" 404 -

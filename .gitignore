@@ -1,0 +1,77 @@
+# Python-specific
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+env/
+ENV/
+.env
+.venv
+env.bak/
+venv.bak/
+.python-version
+
+# Logs
+*.log
+logs/
+backend/*.log
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Data files
+# Uncomment these if you don't want to track data files
+# data/*.csv
+# data/*.json
+
+# Index files 
+# Uncomment if you don't want to track spatial indices
+# data/indices/*.pkl
+# data/indices/*.dat
+# data/indices/*.idx
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
+.Trash-*
