@@ -1,0 +1,20 @@
+2025-05-18 04:17:16,777 - otimizador_dados - INFO - Iniciando processo de otimização
+2025-05-18 04:17:16,777 - otimizador_dados - INFO - Carregando dados de /home/ubuntu/mapa_postos_combustiveis/data/postos_geocodificados_20250518_041529.json
+2025-05-18 04:17:16,817 - otimizador_dados - INFO - Carregados 5009 postos
+2025-05-18 04:17:16,817 - otimizador_dados - INFO - Validando e corrigindo dados...
+2025-05-18 04:17:16,845 - otimizador_dados - INFO - Validação concluída. Postos válidos: 5009, inválidos: 0
+2025-05-18 04:17:16,846 - otimizador_dados - INFO - Criando banco SQLite em /home/ubuntu/mapa_postos_combustiveis/data/postos_otimizados_20250518_041716.db
+2025-05-18 04:17:16,902 - otimizador_dados - INFO - Banco SQLite criado com sucesso: /home/ubuntu/mapa_postos_combustiveis/data/postos_otimizados_20250518_041716.db
+2025-05-18 04:17:16,902 - otimizador_dados - INFO - Criando índice R-tree em /home/ubuntu/mapa_postos_combustiveis/data/indices/rtree_index_20250518_041716
+2025-05-18 04:17:17,116 - otimizador_dados - INFO - Índice R-tree criado com sucesso: /home/ubuntu/mapa_postos_combustiveis/data/indices/rtree_index_20250518_041716
+2025-05-18 04:17:17,116 - otimizador_dados - INFO - Criando índice de grid em /home/ubuntu/mapa_postos_combustiveis/data/indices/grid_index_20250518_041716.pkl
+2025-05-18 04:17:17,127 - otimizador_dados - INFO - Índice de grid criado com sucesso: /home/ubuntu/mapa_postos_combustiveis/data/indices/grid_index_20250518_041716.pkl
+2025-05-18 04:17:17,128 - otimizador_dados - INFO - Criando KD-Tree em /home/ubuntu/mapa_postos_combustiveis/data/indices/kd_tree_20250518_041716.pkl
+2025-05-18 04:17:17,131 - otimizador_dados - INFO - Dados para KD-Tree salvos com sucesso: /home/ubuntu/mapa_postos_combustiveis/data/indices/kd_tree_20250518_041716.pkl
+2025-05-18 04:17:17,131 - otimizador_dados - INFO - Criando JSON otimizado em /home/ubuntu/mapa_postos_combustiveis/data/postos_otimizados_20250518_041716.json
+2025-05-18 04:17:17,344 - otimizador_dados - INFO - JSON otimizado criado com sucesso: /home/ubuntu/mapa_postos_combustiveis/data/postos_otimizados_20250518_041716.json
+2025-05-18 04:17:17,345 - otimizador_dados - INFO - Criando links simbólicos para os arquivos mais recentes
+2025-05-18 04:17:17,351 - otimizador_dados - INFO - Links para arquivos mais recentes criados com sucesso
+2025-05-18 04:17:17,351 - otimizador_dados - INFO - Processo de otimização concluído com sucesso
+2025-05-18 04:17:17,351 - otimizador_dados - INFO - Otimização concluída com sucesso
+2025-05-18 04:17:17,351 - otimizador_dados - INFO - Arquivos gerados: {'db_path': '/home/ubuntu/mapa_postos_combustiveis/data/postos_otimizados_20250518_041716.db', 'json_path': '/home/ubuntu/mapa_postos_combustiveis/data/postos_otimizados_20250518_041716.json', 'rtree_path': '/home/ubuntu/mapa_postos_combustiveis/data/indices/rtree_index_20250518_041716', 'grid_path': '/home/ubuntu/mapa_postos_combustiveis/data/indices/grid_index_20250518_041716.pkl', 'kd_tree_path': '/home/ubuntu/mapa_postos_combustiveis/data/indices/kd_tree_20250518_041716.pkl', 'latest_db': '/home/ubuntu/mapa_postos_combustiveis/data/postos_latest.db', 'latest_json': '/home/ubuntu/mapa_postos_combustiveis/data/postos_latest.json'}

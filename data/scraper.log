@@ -1,0 +1,98 @@
+2025-05-18 04:14:09,280 - scraper_multiplas_fontes - INFO - Iniciando scraping de múltiplas fontes
+2025-05-18 04:14:09,280 - scraper_multiplas_fontes - INFO - Executando scraper: ANP
+2025-05-18 04:14:09,280 - scraper_multiplas_fontes - INFO - Iniciando scraping da ANP
+2025-05-18 04:14:09,369 - scraper_multiplas_fontes - INFO - Coletados 144 postos do estado CE
+2025-05-18 04:14:09,369 - scraper_multiplas_fontes - INFO - Coletados 333 postos do estado AL
+2025-05-18 04:14:09,369 - scraper_multiplas_fontes - INFO - Coletados 241 postos do estado ES
+2025-05-18 04:14:09,369 - scraper_multiplas_fontes - INFO - Coletados 127 postos do estado PB
+2025-05-18 04:14:09,369 - scraper_multiplas_fontes - INFO - Coletados 202 postos do estado AC
+2025-05-18 04:14:09,369 - scraper_multiplas_fontes - INFO - Coletados 356 postos do estado RN
+2025-05-18 04:14:09,369 - scraper_multiplas_fontes - INFO - Coletados 160 postos do estado PR
+2025-05-18 04:14:09,369 - scraper_multiplas_fontes - INFO - Coletados 186 postos do estado SC
+2025-05-18 04:14:09,369 - scraper_multiplas_fontes - INFO - Coletados 296 postos do estado BA
+2025-05-18 04:14:09,370 - scraper_multiplas_fontes - INFO - Coletados 191 postos do estado MA
+2025-05-18 04:14:09,370 - scraper_multiplas_fontes - INFO - Coletados 294 postos do estado MG
+2025-05-18 04:14:09,370 - scraper_multiplas_fontes - INFO - Coletados 385 postos do estado DF
+2025-05-18 04:14:09,370 - scraper_multiplas_fontes - INFO - Coletados 281 postos do estado TO
+2025-05-18 04:14:09,370 - scraper_multiplas_fontes - INFO - Coletados 237 postos do estado AM
+2025-05-18 04:14:09,370 - scraper_multiplas_fontes - INFO - Coletados 169 postos do estado RJ
+2025-05-18 04:14:09,370 - scraper_multiplas_fontes - INFO - Coletados 374 postos do estado RR
+2025-05-18 04:14:09,370 - scraper_multiplas_fontes - INFO - Coletados 243 postos do estado PA
+2025-05-18 04:14:09,370 - scraper_multiplas_fontes - INFO - Coletados 136 postos do estado SE
+2025-05-18 04:14:09,370 - scraper_multiplas_fontes - INFO - Coletados 190 postos do estado RO
+2025-05-18 04:14:09,370 - scraper_multiplas_fontes - INFO - Coletados 130 postos do estado PI
+2025-05-18 04:14:09,370 - scraper_multiplas_fontes - INFO - Coletados 168 postos do estado MS
+2025-05-18 04:14:09,370 - scraper_multiplas_fontes - INFO - Coletados 290 postos do estado AP
+2025-05-18 04:14:09,370 - scraper_multiplas_fontes - INFO - Coletados 145 postos do estado MT
+2025-05-18 04:14:09,370 - scraper_multiplas_fontes - INFO - Coletados 162 postos do estado GO
+2025-05-18 04:14:09,370 - scraper_multiplas_fontes - INFO - Coletados 138 postos do estado SP
+2025-05-18 04:14:09,370 - scraper_multiplas_fontes - INFO - Coletados 342 postos do estado RS
+2025-05-18 04:14:09,370 - scraper_multiplas_fontes - INFO - Coletados 377 postos do estado PE
+2025-05-18 04:14:09,371 - scraper_multiplas_fontes - INFO - Scraping da ANP concluído. Total de postos: 6297
+2025-05-18 04:14:09,564 - scraper_multiplas_fontes - INFO - Salvos 6297 postos de ANP em /home/ubuntu/mapa_postos_combustiveis/data/postos_anp_20250518_041409.csv e /home/ubuntu/mapa_postos_combustiveis/data/postos_anp_20250518_041409.json
+2025-05-18 04:14:09,565 - scraper_multiplas_fontes - INFO - Executando scraper: PrecosCombustiveis
+2025-05-18 04:14:09,566 - scraper_multiplas_fontes - INFO - Iniciando scraping do PrecosCombustiveis.com.br
+2025-05-18 04:14:09,594 - scraper_multiplas_fontes - INFO - Coletados 200 postos do estado ES (PrecosCombustiveis)
+2025-05-18 04:14:09,628 - scraper_multiplas_fontes - INFO - Coletados 108 postos do estado AC (PrecosCombustiveis)
+2025-05-18 04:14:09,628 - scraper_multiplas_fontes - INFO - Coletados 100 postos do estado MT (PrecosCombustiveis)
+2025-05-18 04:14:09,628 - scraper_multiplas_fontes - INFO - Coletados 171 postos do estado BA (PrecosCombustiveis)
+2025-05-18 04:14:09,628 - scraper_multiplas_fontes - INFO - Coletados 126 postos do estado AM (PrecosCombustiveis)
+2025-05-18 04:14:09,628 - scraper_multiplas_fontes - INFO - Coletados 178 postos do estado AL (PrecosCombustiveis)
+2025-05-18 04:14:09,628 - scraper_multiplas_fontes - INFO - Coletados 155 postos do estado PA (PrecosCombustiveis)
+2025-05-18 04:14:09,628 - scraper_multiplas_fontes - INFO - Coletados 118 postos do estado AP (PrecosCombustiveis)
+2025-05-18 04:14:09,628 - scraper_multiplas_fontes - INFO - Coletados 133 postos do estado DF (PrecosCombustiveis)
+2025-05-18 04:14:09,628 - scraper_multiplas_fontes - INFO - Coletados 226 postos do estado MS (PrecosCombustiveis)
+2025-05-18 04:14:09,628 - scraper_multiplas_fontes - INFO - Coletados 157 postos do estado MA (PrecosCombustiveis)
+2025-05-18 04:14:09,628 - scraper_multiplas_fontes - INFO - Coletados 203 postos do estado CE (PrecosCombustiveis)
+2025-05-18 04:14:09,628 - scraper_multiplas_fontes - INFO - Coletados 119 postos do estado MG (PrecosCombustiveis)
+2025-05-18 04:14:09,629 - scraper_multiplas_fontes - INFO - Coletados 172 postos do estado PR (PrecosCombustiveis)
+2025-05-18 04:14:09,629 - scraper_multiplas_fontes - INFO - Coletados 153 postos do estado PI (PrecosCombustiveis)
+2025-05-18 04:14:09,629 - scraper_multiplas_fontes - INFO - Coletados 101 postos do estado RJ (PrecosCombustiveis)
+2025-05-18 04:14:09,629 - scraper_multiplas_fontes - INFO - Coletados 236 postos do estado RS (PrecosCombustiveis)
+2025-05-18 04:14:09,629 - scraper_multiplas_fontes - INFO - Coletados 205 postos do estado PE (PrecosCombustiveis)
+2025-05-18 04:14:09,629 - scraper_multiplas_fontes - INFO - Coletados 138 postos do estado RR (PrecosCombustiveis)
+2025-05-18 04:14:09,629 - scraper_multiplas_fontes - INFO - Coletados 181 postos do estado RO (PrecosCombustiveis)
+2025-05-18 04:14:09,629 - scraper_multiplas_fontes - INFO - Coletados 91 postos do estado SP (PrecosCombustiveis)
+2025-05-18 04:14:09,629 - scraper_multiplas_fontes - INFO - Coletados 167 postos do estado SE (PrecosCombustiveis)
+2025-05-18 04:14:09,629 - scraper_multiplas_fontes - INFO - Coletados 131 postos do estado RN (PrecosCombustiveis)
+2025-05-18 04:14:09,629 - scraper_multiplas_fontes - INFO - Coletados 195 postos do estado GO (PrecosCombustiveis)
+2025-05-18 04:14:09,629 - scraper_multiplas_fontes - INFO - Coletados 201 postos do estado PB (PrecosCombustiveis)
+2025-05-18 04:14:09,629 - scraper_multiplas_fontes - INFO - Coletados 175 postos do estado TO (PrecosCombustiveis)
+2025-05-18 04:14:09,629 - scraper_multiplas_fontes - INFO - Coletados 176 postos do estado SC (PrecosCombustiveis)
+2025-05-18 04:14:09,630 - scraper_multiplas_fontes - INFO - Scraping do PrecosCombustiveis concluído. Total de postos: 4316
+2025-05-18 04:14:09,762 - scraper_multiplas_fontes - INFO - Salvos 4316 postos de PrecosCombustiveis em /home/ubuntu/mapa_postos_combustiveis/data/postos_precoscombustiveis_20250518_041409.csv e /home/ubuntu/mapa_postos_combustiveis/data/postos_precoscombustiveis_20250518_041409.json
+2025-05-18 04:14:09,763 - scraper_multiplas_fontes - INFO - Executando scraper: MinasGasolina
+2025-05-18 04:14:09,763 - scraper_multiplas_fontes - INFO - Iniciando scraping do MinasGasolina
+2025-05-18 04:14:09,770 - scraper_multiplas_fontes - INFO - Coletados 19 postos da cidade Teófilo Otoni (MinasGasolina)
+2025-05-18 04:14:09,770 - scraper_multiplas_fontes - INFO - Coletados 15 postos da cidade Patos de Minas (MinasGasolina)
+2025-05-18 04:14:09,770 - scraper_multiplas_fontes - INFO - Coletados 20 postos da cidade Poços de Caldas (MinasGasolina)
+2025-05-18 04:14:09,770 - scraper_multiplas_fontes - INFO - Coletados 14 postos da cidade Sete Lagoas (MinasGasolina)
+2025-05-18 04:14:09,770 - scraper_multiplas_fontes - INFO - Coletados 17 postos da cidade Ipatinga (MinasGasolina)
+2025-05-18 04:14:09,770 - scraper_multiplas_fontes - INFO - Coletados 14 postos da cidade Pouso Alegre (MinasGasolina)
+2025-05-18 04:14:09,770 - scraper_multiplas_fontes - INFO - Coletados 22 postos da cidade Ribeirão das Neves (MinasGasolina)
+2025-05-18 04:14:09,770 - scraper_multiplas_fontes - INFO - Coletados 11 postos da cidade Montes Claros (MinasGasolina)
+2025-05-18 04:14:09,770 - scraper_multiplas_fontes - INFO - Coletados 29 postos da cidade Ibirité (MinasGasolina)
+2025-05-18 04:14:09,770 - scraper_multiplas_fontes - INFO - Coletados 24 postos da cidade Belo Horizonte (MinasGasolina)
+2025-05-18 04:14:09,770 - scraper_multiplas_fontes - INFO - Coletados 10 postos da cidade Governador Valadares (MinasGasolina)
+2025-05-18 04:14:09,770 - scraper_multiplas_fontes - INFO - Coletados 23 postos da cidade Juiz de Fora (MinasGasolina)
+2025-05-18 04:14:09,770 - scraper_multiplas_fontes - INFO - Coletados 13 postos da cidade Uberlândia (MinasGasolina)
+2025-05-18 04:14:09,771 - scraper_multiplas_fontes - INFO - Coletados 30 postos da cidade Betim (MinasGasolina)
+2025-05-18 04:14:09,771 - scraper_multiplas_fontes - INFO - Coletados 19 postos da cidade Santa Luzia (MinasGasolina)
+2025-05-18 04:14:09,771 - scraper_multiplas_fontes - INFO - Coletados 27 postos da cidade Uberaba (MinasGasolina)
+2025-05-18 04:14:09,771 - scraper_multiplas_fontes - INFO - Coletados 20 postos da cidade Sabará (MinasGasolina)
+2025-05-18 04:14:09,771 - scraper_multiplas_fontes - INFO - Coletados 18 postos da cidade Contagem (MinasGasolina)
+2025-05-18 04:14:09,771 - scraper_multiplas_fontes - INFO - Coletados 26 postos da cidade Divinópolis (MinasGasolina)
+2025-05-18 04:14:09,771 - scraper_multiplas_fontes - INFO - Coletados 23 postos da cidade Barbacena (MinasGasolina)
+2025-05-18 04:14:09,771 - scraper_multiplas_fontes - INFO - Scraping do MinasGasolina concluído. Total de postos: 394
+2025-05-18 04:14:09,785 - scraper_multiplas_fontes - INFO - Salvos 394 postos de MinasGasolina em /home/ubuntu/mapa_postos_combustiveis/data/postos_minasgasolina_20250518_041409.csv e /home/ubuntu/mapa_postos_combustiveis/data/postos_minasgasolina_20250518_041409.json
+2025-05-18 04:14:09,785 - scraper_multiplas_fontes - INFO - Consolidando dados de 3 arquivos
+2025-05-18 04:14:09,818 - scraper_multiplas_fontes - INFO - Carregados 6297 postos de /home/ubuntu/mapa_postos_combustiveis/data/postos_anp_20250518_041409.json
+2025-05-18 04:14:09,845 - scraper_multiplas_fontes - INFO - Carregados 4316 postos de /home/ubuntu/mapa_postos_combustiveis/data/postos_precoscombustiveis_20250518_041409.json
+2025-05-18 04:14:09,847 - scraper_multiplas_fontes - INFO - Carregados 394 postos de /home/ubuntu/mapa_postos_combustiveis/data/postos_minasgasolina_20250518_041409.json
+2025-05-18 04:14:09,847 - scraper_multiplas_fontes - INFO - Total de postos antes da deduplicação: 11007
+2025-05-18 04:14:09,847 - scraper_multiplas_fontes - INFO - Iniciando deduplicação de 11007 postos
+2025-05-18 04:14:09,883 - scraper_multiplas_fontes - INFO - Deduplicação concluída. Postos únicos: 5009
+2025-05-18 04:14:09,883 - scraper_multiplas_fontes - INFO - Total de postos após deduplicação: 5009
+2025-05-18 04:14:10,070 - scraper_multiplas_fontes - INFO - Dados consolidados salvos em /home/ubuntu/mapa_postos_combustiveis/data/postos_consolidados_20250518_041409.csv e /home/ubuntu/mapa_postos_combustiveis/data/postos_consolidados_20250518_041409.json
+2025-05-18 04:14:10,074 - scraper_multiplas_fontes - INFO - Scraping concluído. Total de postos consolidados: 5009
+2025-05-18 04:14:10,075 - scraper_multiplas_fontes - INFO - Arquivo consolidado: /home/ubuntu/mapa_postos_combustiveis/data/postos_consolidados_20250518_041409.json

@@ -1,0 +1,8 @@
+2025-05-18 04:15:29,587 - geocoder_em_lote - INFO - Processando arquivo: /home/ubuntu/mapa_postos_combustiveis/data/postos_consolidados_20250518_041409.json
+2025-05-18 04:15:29,618 - geocoder_em_lote - INFO - Carregados 5009 postos
+2025-05-18 04:15:29,620 - geocoder_em_lote - INFO - Total de postos para geocodificar: 0
+2025-05-18 04:15:29,624 - geocoder_em_lote - INFO - Geocodificação concluída. Sucessos: 0/0
+2025-05-18 04:15:29,624 - geocoder_em_lote - INFO - Geocodificador Nominatim: 0 requisições
+2025-05-18 04:15:29,624 - geocoder_em_lote - INFO - Geocodificador Google: 0 requisições
+2025-05-18 04:15:29,624 - geocoder_em_lote - INFO - Geocodificador HERE: 0 requisições
+2025-05-18 04:15:29,788 - geocoder_em_lote - INFO - Dados geocodificados salvos em /home/ubuntu/mapa_postos_combustiveis/data/postos_geocodificados_20250518_041529.json e /home/ubuntu/mapa_postos_combustiveis/data/postos_geocodificados_20250518_041529.csv
