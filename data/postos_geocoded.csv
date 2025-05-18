@@ -1,0 +1,36 @@
+nome,bandeira,endereco,bairro,cidade,estado,preco_gasolina,latitude,longitude,data_coleta,fonte
+Posto Ipiranga - Centro,Ipiranga,"Av. Paulista, 1000",Centro,São Paulo,SP,"5,79",-23.5505,-46.6333,2025-05-18,Simulado
+Posto Shell - Jardins,Shell,"Rua Augusta, 500",Jardins,São Paulo,SP,"5,89",-23.5605,-46.6433,2025-05-18,Simulado
+Posto Petrobras - Pinheiros,Petrobras,"Av. Rebouças, 1500",Pinheiros,São Paulo,SP,"5,69",-23.5705,-46.6533,2025-05-18,Simulado
+Auto Posto Independente,Bandeira Branca,"Rua Vergueiro, 800",Liberdade,São Paulo,SP,"5,59",-23.5805,-46.6633,2025-05-18,Simulado
+Posto Ale - Vila Mariana,Ale,"Av. Domingos de Morais, 2000",Vila Mariana,São Paulo,SP,"5,75",-23.5905,-46.6733,2025-05-18,Simulado
+Posto Ipiranga - Centro,Ipiranga,"Av. Principal, 1000",Centro,Rio de Janeiro,RJ,"5,60",-22.916800000000002,-43.1829,2025-05-18,Simulado
+Posto Shell - Jardim América,Shell,"Av. Principal, 1100",Jardim América,Rio de Janeiro,RJ,"5,70",-22.9068,-43.1729,2025-05-18,Simulado
+Posto Petrobras - Setor Sul,Petrobras,"Av. Principal, 1200",Setor Sul,Rio de Janeiro,RJ,"5,80",-22.8968,-43.1629,2025-05-18,Simulado
+Posto Ipiranga - Centro,Ipiranga,"Av. Principal, 1000",Centro,Belo Horizonte,MG,"5,60",-19.9267,-43.9445,2025-05-18,Simulado
+Posto Shell - Jardim América,Shell,"Av. Principal, 1100",Jardim América,Belo Horizonte,MG,"5,70",-19.9167,-43.9345,2025-05-18,Simulado
+Posto Petrobras - Setor Sul,Petrobras,"Av. Principal, 1200",Setor Sul,Belo Horizonte,MG,"5,80",-19.906699999999997,-43.9245,2025-05-18,Simulado
+Posto Ipiranga - Centro,Ipiranga,"Av. Principal, 1000",Centro,Porto Alegre,RS,"5,60",-30.044600000000003,-51.2277,2025-05-18,Simulado
+Posto Shell - Jardim América,Shell,"Av. Principal, 1100",Jardim América,Porto Alegre,RS,"5,70",-30.0346,-51.2177,2025-05-18,Simulado
+Posto Petrobras - Setor Sul,Petrobras,"Av. Principal, 1200",Setor Sul,Porto Alegre,RS,"5,80",-30.0246,-51.2077,2025-05-18,Simulado
+Posto Ipiranga - Centro,Ipiranga,"Av. Principal, 1000",Centro,Salvador,BA,"5,60",-12.981399999999999,-38.511399999999995,2025-05-18,Simulado
+Posto Shell - Jardim América,Shell,"Av. Principal, 1100",Jardim América,Salvador,BA,"5,70",-12.9714,-38.5014,2025-05-18,Simulado
+Posto Petrobras - Setor Sul,Petrobras,"Av. Principal, 1200",Setor Sul,Salvador,BA,"5,80",-12.9614,-38.4914,2025-05-18,Simulado
+Posto Ipiranga - Centro,Ipiranga,"Av. Principal, 1000",Centro,Brasília,DF,"5,60",-15.790099999999999,-47.9392,2025-05-18,Simulado
+Posto Shell - Jardim América,Shell,"Av. Principal, 1100",Jardim América,Brasília,DF,"5,70",-15.7801,-47.9292,2025-05-18,Simulado
+Posto Petrobras - Setor Sul,Petrobras,"Av. Principal, 1200",Setor Sul,Brasília,DF,"5,80",-15.7701,-47.919200000000004,2025-05-18,Simulado
+Posto Ipiranga - Centro,Ipiranga,"Av. Principal, 1000",Centro,Recife,PE,"5,60",-8.057599999999999,-34.887,2025-05-18,Simulado
+Posto Shell - Jardim América,Shell,"Av. Principal, 1100",Jardim América,Recife,PE,"5,70",-8.0476,-34.877,2025-05-18,Simulado
+Posto Petrobras - Setor Sul,Petrobras,"Av. Principal, 1200",Setor Sul,Recife,PE,"5,80",-8.0376,-34.867000000000004,2025-05-18,Simulado
+Posto Ipiranga - Centro,Ipiranga,"Av. Principal, 1000",Centro,Fortaleza,CE,"5,60",-3.7419,-38.536699999999996,2025-05-18,Simulado
+Posto Shell - Jardim América,Shell,"Av. Principal, 1100",Jardim América,Fortaleza,CE,"5,70",-3.7319,-38.5267,2025-05-18,Simulado
+Posto Petrobras - Setor Sul,Petrobras,"Av. Principal, 1200",Setor Sul,Fortaleza,CE,"5,80",-3.7219,-38.5167,2025-05-18,Simulado
+Posto Ipiranga - Centro,Ipiranga,"Av. Principal, 1000",Centro,Curitiba,PR,"5,60",-25.4295,-49.2746,2025-05-18,Simulado
+Posto Shell - Jardim América,Shell,"Av. Principal, 1100",Jardim América,Curitiba,PR,"5,70",-25.4195,-49.2646,2025-05-18,Simulado
+Posto Petrobras - Setor Sul,Petrobras,"Av. Principal, 1200",Setor Sul,Curitiba,PR,"5,80",-25.409499999999998,-49.2546,2025-05-18,Simulado
+Posto Ipiranga - Centro,Ipiranga,"Av. Principal, 1000",Centro,Manaus,AM,"5,60",-3.129,-60.0317,2025-05-18,Simulado
+Posto Shell - Jardim América,Shell,"Av. Principal, 1100",Jardim América,Manaus,AM,"5,70",-3.119,-60.0217,2025-05-18,Simulado
+Posto Petrobras - Setor Sul,Petrobras,"Av. Principal, 1200",Setor Sul,Manaus,AM,"5,80",-3.1090000000000004,-60.011700000000005,2025-05-18,Simulado
+Posto Ipiranga - Centro,Ipiranga,"Av. Principal, 1000",Centro,Goiânia,GO,"5,60",-16.6899,-49.265,2025-05-18,Simulado
+Posto Shell - Jardim América,Shell,"Av. Principal, 1100",Jardim América,Goiânia,GO,"5,70",-16.6799,-49.255,2025-05-18,Simulado
+Posto Petrobras - Setor Sul,Petrobras,"Av. Principal, 1200",Setor Sul,Goiânia,GO,"5,80",-16.6699,-49.245000000000005,2025-05-18,Simulado
