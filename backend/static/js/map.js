@@ -2,344 +2,324 @@
  * Map.js - Responsável pela gestão do mapa e marcadores
  */
 
-class MapManager {
-    constructor(mapElementId) {
-        // Elemento do mapa
-        this.mapElement = document.getElementById(mapElementId);
-        
-        // Instância do mapa Leaflet
-        this.map = null;
-        
-        // Grupo de marcadores para clustering
-        this.markers = null;
-        
-        // Marcador da localização atual
-        this.currentLocationMarker = null;
-        
-        // Ícones personalizados
-        this.icons = {
-            default: this.createIcon('marker-gas.png'),
-            selected: this.createIcon('marker-gas-selected.png'),
-            current: this.createIcon('marker-location.png')
-        };
-        
-        // Posto selecionado atualmente
-        this.selectedStation = null;
-        
-        // Callbacks
-        this.onStationSelect = null;
-        this.onMapMoveEnd = null;
-        
-        // Inicializar mapa
-        this.initMap();
-    }
+const mapManager = {
+    // Referência ao mapa Leaflet
+    map: null,
     
-    /**
-     * Cria um ícone personalizado para marcadores
-     * @param {string} iconFile - Nome do arquivo de ícone
-     * @returns {L.Icon} - Ícone Leaflet
-     */
-    createIcon(iconFile) {
-        return L.icon({
-            iconUrl: `img/${iconFile}`,
-            shadowUrl: 'img/marker-shadow.png',
-            iconSize: [25, 41],
-            iconAnchor: [12, 41],
-            popupAnchor: [1, -34],
-            shadowSize: [41, 41]
-        });
-    }
+    // Grupo de marcadores para postos
+    markersGroup: null,
     
-    /**
-     * Inicializa o mapa Leaflet
-     */
-    initMap() {
-        // Criar mapa
-        this.map = L.map(this.mapElement, {
-            center: [-15.7801, -47.9292], // Centro do Brasil (Brasília)
-            zoom: 5,
-            minZoom: 4,
-            maxZoom: 18,
-            zoomControl: false
-        });
+    // Marcador da localização atual
+    currentLocationMarker: null,
+    
+    // Inicializar o mapa
+    init: function(elementId = 'map', center = [-23.5505, -46.6333], zoom = 13) {
+        console.log('Inicializando mapa...');
         
-        // Adicionar controles de zoom em posição personalizada
-        L.control.zoom({
-            position: 'bottomright'
-        }).addTo(this.map);
+        // Criar o mapa
+        this.map = L.map(elementId).setView(center, zoom);
         
-        // Adicionar camada de mapa base (OpenStreetMap)
+        // Adicionar camada de tiles do OpenStreetMap
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
             maxZoom: 19
         }).addTo(this.map);
         
         // Inicializar grupo de marcadores com clustering
-        this.markers = L.markerClusterGroup({
-            disableClusteringAtZoom: 14,
-            spiderfyOnMaxZoom: true,
-            showCoverageOnHover: false,
-            zoomToBoundsOnClick: true,
-            maxClusterRadius: 50
-        });
+        this.markersGroup = L.markerClusterGroup();
+        this.map.addLayer(this.markersGroup);
         
-        this.map.addLayer(this.markers);
+        // Adicionar controles de zoom
+        L.control.zoom({
+            position: 'bottomright'
+        }).addTo(this.map);
         
-        // Adicionar eventos
+        // Registrar eventos do mapa
+        this.registerEvents();
+        
+        console.log('Mapa inicializado com sucesso');
+        
+        // Tentar obter localização atual
+        this.getCurrentLocation();
+        
+        return this.map;
+    },
+    
+    // Registrar eventos do mapa
+    registerEvents: function() {
+        // Evento de fim de movimento (pan/zoom)
         this.map.on('moveend', () => {
-            if (this.onMapMoveEnd) {
-                const center = this.map.getCenter();
-                const zoom = this.map.getZoom();
-                this.onMapMoveEnd(center.lat, center.lng, zoom);
-            }
+            // Atualizar postos quando o mapa for movido significativamente
+            // Implementação limitada para evitar muitas requisições
+            const center = this.map.getCenter();
+            console.log(`Mapa movido para ${center.lat.toFixed(4)}, ${center.lng.toFixed(4)}`);
         });
-    }
-    
-    /**
-     * Define o callback para seleção de posto
-     * @param {Function} callback - Função a ser chamada quando um posto for selecionado
-     */
-    setOnStationSelect(callback) {
-        this.onStationSelect = callback;
-    }
-    
-    /**
-     * Define o callback para fim de movimento do mapa
-     * @param {Function} callback - Função a ser chamada quando o mapa parar de se mover
-     */
-    setOnMapMoveEnd(callback) {
-        this.onMapMoveEnd = callback;
-    }
-    
-    /**
-     * Adiciona marcadores de postos ao mapa
-     * @param {Array} stations - Lista de postos
-     * @param {boolean} fitBounds - Se deve ajustar o zoom para mostrar todos os marcadores
-     */
-    addStations(stations, fitBounds = true) {
-        // Limpar marcadores existentes
-        this.markers.clearLayers();
         
-        // Verificar se há postos
-        if (!stations || stations.length === 0) {
-            console.warn('Nenhum posto para adicionar ao mapa');
-            return;
+        // Evento de clique no mapa
+        this.map.on('click', (e) => {
+            console.log(`Clique no mapa em ${e.latlng.lat.toFixed(6)}, ${e.latlng.lng.toFixed(6)}`);
+        });
+    },
+    
+    // Obter localização atual do usuário
+    getCurrentLocation: function() {
+        console.log('Tentando obter localização atual...');
+        
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(
+                // Sucesso
+                (position) => {
+                    const lat = position.coords.latitude;
+                    const lon = position.coords.longitude;
+                    console.log(`Localização obtida: ${lat}, ${lon}`);
+                    
+                    // Centralizar mapa na localização atual
+                    this.map.setView([lat, lon], 15);
+                    
+                    // Adicionar marcador de localização atual
+                    this.setCurrentLocation(lat, lon);
+                    
+                    // Buscar postos próximos à localização atual
+                    this.loadNearbyStations(lat, lon);
+                },
+                // Erro
+                (error) => {
+                    console.error('Erro ao obter localização:', error);
+                    
+                    // Usar localização padrão (São Paulo)
+                    this.loadNearbyStations(-23.5505, -46.6333);
+                },
+                // Opções
+                {
+                    enableHighAccuracy: true,
+                    timeout: 5000,
+                    maximumAge: 0
+                }
+            );
+        } else {
+            console.warn('Geolocalização não suportada pelo navegador');
+            
+            // Usar localização padrão (São Paulo)
+            this.loadNearbyStations(-23.5505, -46.6333);
         }
+    },
+    
+    // Definir localização atual no mapa
+    setCurrentLocation: function(lat, lon) {
+        // Remover marcador anterior se existir
+        if (this.currentLocationMarker) {
+            this.map.removeLayer(this.currentLocationMarker);
+        }
+        
+        // Criar ícone personalizado para localização atual
+        const locationIcon = L.icon({
+            iconUrl: '/img/marker-location.png',
+            shadowUrl: '/img/marker-shadow.png',
+            iconSize: [25, 41],
+            iconAnchor: [12, 41],
+            popupAnchor: [1, -34],
+            shadowSize: [41, 41]
+        });
+        
+        // Adicionar marcador de localização atual
+        this.currentLocationMarker = L.marker([lat, lon], {
+            icon: locationIcon,
+            zIndexOffset: 1000 // Sempre acima dos outros marcadores
+        }).addTo(this.map);
+        
+        // Adicionar popup ao marcador
+        this.currentLocationMarker.bindPopup('<strong>Sua localização atual</strong>').openPopup();
+    },
+    
+    // Carregar postos próximos a uma localização
+    loadNearbyStations: function(lat, lon, radius = 5, fuel = 'gasolina', brand = 'todas', orderBy = 'distancia') {
+        console.log(`Carregando postos próximos a ${lat}, ${lon}...`);
+        
+        // Atualizar interface para indicar carregamento
+        const stationsList = document.getElementById('stations-list');
+        if (stationsList) {
+            stationsList.innerHTML = '<div class="loading-spinner"></div><p>Carregando postos...</p>';
+        }
+        
+        // Buscar postos via API
+        api.getStationsNearby(lat, lon, radius, fuel, brand, orderBy)
+            .then(stations => {
+                console.log(`${stations.length} postos encontrados`);
+                
+                // Adicionar postos ao mapa
+                this.addStations(stations);
+                
+                // Atualizar lista de postos
+                this.updateStationsList(stations);
+            })
+            .catch(error => {
+                console.error('Erro ao carregar postos:', error);
+                
+                // Tentar usar dados simulados em caso de erro
+                console.log('Tentando usar dados simulados...');
+                const simulatedStations = dadosSimulados.gerarPostosSimulados(lat, lon, 30);
+                
+                // Adicionar postos simulados ao mapa
+                this.addStations(simulatedStations, true);
+                
+                // Atualizar lista de postos
+                this.updateStationsList(simulatedStations, true);
+            });
+    },
+    
+    // Adicionar postos ao mapa
+    addStations: function(stations, isSimulated = false) {
+        console.log(`Adicionando ${stations.length} postos ao mapa (${isSimulated ? 'simulados' : 'reais'})`);
+        
+        // Limpar marcadores existentes
+        this.markersGroup.clearLayers();
+        
+        // Criar ícone personalizado para postos
+        const stationIcon = L.icon({
+            iconUrl: '/img/marker-gas.png',
+            shadowUrl: '/img/marker-shadow.png',
+            iconSize: [25, 41],
+            iconAnchor: [12, 41],
+            popupAnchor: [1, -34],
+            shadowSize: [41, 41]
+        });
         
         // Adicionar marcadores para cada posto
         stations.forEach(station => {
-            // Verificar se tem coordenadas válidas
+            // Verificar se o posto tem coordenadas válidas
             if (!station.latitude || !station.longitude) {
+                console.warn(`Posto ${station.id} sem coordenadas válidas`);
                 return;
             }
             
             // Criar marcador
             const marker = L.marker([station.latitude, station.longitude], {
-                icon: this.icons.default,
-                title: station.nome,
-                alt: station.nome,
-                stationId: station.id
+                icon: stationIcon,
+                title: station.nome
             });
             
-            // Adicionar evento de clique
-            marker.on('click', () => {
-                this.selectStation(station, marker);
-            });
+            // Criar conteúdo do popup
+            const popupContent = `
+                <div class="station-popup">
+                    <h3>${station.nome}</h3>
+                    <p>${station.endereco}, ${station.bairro}</p>
+                    <p>${station.cidade} - ${station.estado}</p>
+                    <p><strong>Bandeira:</strong> ${station.bandeira}</p>
+                    <div class="prices">
+                        <p><strong>Gasolina:</strong> R$ ${station.preco_gasolina}</p>
+                        <p><strong>Álcool:</strong> R$ ${station.preco_alcool}</p>
+                        <p><strong>Diesel:</strong> R$ ${station.preco_diesel}</p>
+                        ${station.preco_gnv !== 'N/A' ? `<p><strong>GNV:</strong> R$ ${station.preco_gnv}</p>` : ''}
+                    </div>
+                    <p class="distance">${station.distancia} km</p>
+                    ${isSimulated ? '<p class="simulated-data">Dados simulados</p>' : ''}
+                </div>
+            `;
             
-            // Adicionar ao grupo de marcadores
-            this.markers.addLayer(marker);
+            // Adicionar popup ao marcador
+            marker.bindPopup(popupContent);
+            
+            // Adicionar marcador ao grupo
+            this.markersGroup.addLayer(marker);
         });
         
-        // Ajustar zoom para mostrar todos os marcadores
-        if (fitBounds && this.markers.getLayers().length > 0) {
-            this.map.fitBounds(this.markers.getBounds(), {
-                padding: [50, 50],
-                maxZoom: 15
-            });
+        // Ajustar zoom para mostrar todos os marcadores se houver mais de um
+        if (stations.length > 1) {
+            const group = L.featureGroup(this.markersGroup.getLayers());
+            this.map.fitBounds(group.getBounds().pad(0.1));
         }
-    }
+    },
     
-    /**
-     * Seleciona um posto e destaca seu marcador
-     * @param {Object} station - Posto a ser selecionado
-     * @param {L.Marker} marker - Marcador do posto
-     */
-    selectStation(station, marker = null) {
-        // Resetar marcador anterior
-        if (this.selectedStation) {
-            // Buscar marcador pelo ID do posto
-            const layers = this.markers.getLayers();
-            const oldMarker = layers.find(layer => layer.options.stationId === this.selectedStation.id);
-            
-            if (oldMarker) {
-                oldMarker.setIcon(this.icons.default);
-            }
-        }
+    // Atualizar lista de postos na interface
+    updateStationsList: function(stations, isSimulated = false) {
+        console.log(`Atualizando lista com ${stations.length} postos (${isSimulated ? 'simulados' : 'reais'})`);
         
-        // Atualizar posto selecionado
-        this.selectedStation = station;
-        
-        // Destacar novo marcador
-        if (!marker) {
-            // Buscar marcador pelo ID do posto
-            const layers = this.markers.getLayers();
-            marker = layers.find(layer => layer.options.stationId === station.id);
-        }
-        
-        if (marker) {
-            marker.setIcon(this.icons.selected);
-            
-            // Centralizar mapa no marcador
-            this.map.setView(marker.getLatLng(), Math.max(15, this.map.getZoom()));
-        }
-        
-        // Chamar callback
-        if (this.onStationSelect) {
-            this.onStationSelect(station);
-        }
-    }
-    
-    /**
-     * Seleciona um posto pelo ID
-     * @param {string} stationId - ID do posto
-     * @param {Array} stations - Lista de postos (opcional)
-     */
-    selectStationById(stationId, stations = null) {
-        // Buscar posto pelo ID
-        let station = null;
-        
-        if (stations) {
-            station = stations.find(s => s.id === stationId);
-        }
-        
-        if (!station) {
-            console.warn(`Posto com ID ${stationId} não encontrado`);
+        const stationsList = document.getElementById('stations-list');
+        if (!stationsList) {
+            console.warn('Elemento stations-list não encontrado');
             return;
         }
         
-        this.selectStation(station);
-    }
-    
-    /**
-     * Mostra a localização atual do usuário no mapa
-     */
-    async showCurrentLocation() {
-        try {
-            // Verificar se o navegador suporta geolocalização
-            if (!navigator.geolocation) {
-                throw new Error('Geolocalização não suportada pelo navegador');
-            }
+        // Limpar lista
+        stationsList.innerHTML = '';
+        
+        // Adicionar aviso se dados forem simulados
+        if (isSimulated) {
+            const simulatedWarning = document.createElement('div');
+            simulatedWarning.className = 'simulated-warning';
+            simulatedWarning.innerHTML = '<i class="fas fa-info-circle"></i> Exibindo dados simulados.';
+            stationsList.appendChild(simulatedWarning);
+        }
+        
+        // Adicionar cada posto à lista
+        stations.forEach(station => {
+            const stationElement = document.createElement('div');
+            stationElement.className = 'station-item';
+            stationElement.innerHTML = `
+                <h3>${station.nome}</h3>
+                <p>${station.endereco}, ${station.bairro}</p>
+                <p>${station.cidade} - ${station.estado}</p>
+                <p class="brand">${station.bandeira}</p>
+                <p class="price">Gasolina: R$ ${station.preco_gasolina}</p>
+                <p class="distance">${station.distancia} km</p>
+            `;
             
-            // Obter posição atual
-            const position = await new Promise((resolve, reject) => {
-                navigator.geolocation.getCurrentPosition(resolve, reject, {
-                    enableHighAccuracy: true,
-                    timeout: 5000,
-                    maximumAge: 0
+            // Adicionar evento de clique para centralizar no mapa
+            stationElement.addEventListener('click', () => {
+                // Centralizar mapa no posto
+                this.map.setView([station.latitude, station.longitude], 17);
+                
+                // Buscar marcador correspondente e abrir popup
+                this.markersGroup.getLayers().forEach(layer => {
+                    const latlng = layer.getLatLng();
+                    if (latlng.lat === parseFloat(station.latitude) && latlng.lng === parseFloat(station.longitude)) {
+                        layer.openPopup();
+                    }
                 });
             });
             
-            const { latitude, longitude } = position.coords;
-            
-            // Remover marcador anterior
-            if (this.currentLocationMarker) {
-                this.map.removeLayer(this.currentLocationMarker);
-            }
-            
-            // Adicionar novo marcador
-            this.currentLocationMarker = L.marker([latitude, longitude], {
-                icon: this.icons.current,
-                title: 'Sua localização',
-                zIndexOffset: 1000
-            }).addTo(this.map);
-            
-            // Centralizar mapa
-            this.map.setView([latitude, longitude], 15);
-            
-            return { latitude, longitude };
-        } catch (error) {
-            console.error('Erro ao obter localização:', error);
-            
-            // Mostrar mensagem amigável
-            let message = 'Não foi possível obter sua localização.';
-            
-            if (error.code === 1) {
-                message = 'Permissão de localização negada. Verifique as configurações do seu navegador.';
-            } else if (error.code === 2) {
-                message = 'Localização indisponível. Verifique se o GPS está ativado.';
-            } else if (error.code === 3) {
-                message = 'Tempo esgotado ao obter localização. Tente novamente.';
-            }
-            
-            alert(message);
-            throw error;
+            stationsList.appendChild(stationElement);
+        });
+        
+        // Se não houver postos, mostrar mensagem
+        if (stations.length === 0) {
+            stationsList.innerHTML = '<p>Nenhum posto encontrado nesta região.</p>';
         }
-    }
+    },
     
-    /**
-     * Centraliza o mapa em uma localização
-     * @param {number} lat - Latitude
-     * @param {number} lon - Longitude
-     * @param {number} zoom - Nível de zoom
-     */
-    centerMap(lat, lon, zoom = 15) {
-        this.map.setView([lat, lon], zoom);
-    }
-    
-    /**
-     * Redimensiona o mapa (útil após alterações no layout)
-     */
-    resize() {
-        this.map.invalidateSize();
-    }
-}
-
-// Dados simulados para quando a API não retornar resultados
-const dadosSimulados = {
-    gerarPostosSimulados: function(lat, lon, quantidade = 20) {
-        const postos = [];
+    // Buscar postos por texto (endereço, cidade, etc)
+    searchStations: function(query, fuel = 'gasolina', brand = 'todas', orderBy = 'distancia') {
+        console.log(`Buscando postos com query "${query}"...`);
         
-        // Bandeiras comuns
-        const bandeiras = ['Petrobras', 'Shell', 'Ipiranga', 'Raízen', 'Ale', 'Bandeira Branca'];
-        
-        // Nomes de ruas
-        const ruas = ['Avenida Paulista', 'Rua Augusta', 'Avenida Brasil', 'Rua da Consolação', 
-                      'Avenida Rebouças', 'Rua Oscar Freire', 'Avenida Faria Lima', 'Rua Haddock Lobo'];
-        
-        // Bairros
-        const bairros = ['Centro', 'Jardins', 'Pinheiros', 'Vila Mariana', 'Moema', 
-                         'Itaim Bibi', 'Brooklin', 'Morumbi', 'Tatuapé'];
-        
-        // Gerar postos
-        for (let i = 0; i < quantidade; i++) {
-            // Gerar coordenadas aleatórias próximas
-            const latOffset = (Math.random() - 0.5) * 0.05;
-            const lonOffset = (Math.random() - 0.5) * 0.05;
-            
-            const posto = {
-                id: `simulado_${i}`,
-                nome: `Posto ${bandeiras[Math.floor(Math.random() * bandeiras.length)]} ${i + 1}`,
-                bandeira: bandeiras[Math.floor(Math.random() * bandeiras.length)],
-                endereco: `${ruas[Math.floor(Math.random() * ruas.length)]}, ${Math.floor(Math.random() * 2000)}`,
-                bairro: bairros[Math.floor(Math.random() * bairros.length)],
-                cidade: 'São Paulo',
-                estado: 'SP',
-                latitude: lat + latOffset,
-                longitude: lon + lonOffset,
-                preco_gasolina: (5 + Math.random() * 1.5).toFixed(2),
-                preco_alcool: (3.5 + Math.random() * 1).toFixed(2),
-                preco_diesel: (4.5 + Math.random() * 1).toFixed(2),
-                preco_gnv: Math.random() > 0.7 ? (3 + Math.random() * 1).toFixed(2) : 'N/A',
-                data_coleta: new Date().toISOString().split('T')[0],
-                distancia: (Math.random() * 5).toFixed(2)
-            };
-            
-            postos.push(posto);
+        // Atualizar interface para indicar carregamento
+        const stationsList = document.getElementById('stations-list');
+        if (stationsList) {
+            stationsList.innerHTML = '<div class="loading-spinner"></div><p>Buscando postos...</p>';
         }
         
-        // Ordenar por distância
-        postos.sort((a, b) => parseFloat(a.distancia) - parseFloat(b.distancia));
-        
-        return postos;
+        // Buscar postos via API
+        api.searchStations(query, fuel, brand, orderBy)
+            .then(stations => {
+                console.log(`${stations.length} postos encontrados para "${query}"`);
+                
+                // Adicionar postos ao mapa
+                this.addStations(stations);
+                
+                // Atualizar lista de postos
+                this.updateStationsList(stations);
+            })
+            .catch(error => {
+                console.error('Erro ao buscar postos:', error);
+                
+                // Tentar usar dados simulados em caso de erro
+                console.log('Tentando usar dados simulados...');
+                const simulatedStations = dadosSimulados.gerarPostosSimulados(-23.5505, -46.6333, 30);
+                
+                // Adicionar postos simulados ao mapa
+                this.addStations(simulatedStations, true);
+                
+                // Atualizar lista de postos
+                this.updateStationsList(simulatedStations, true);
+            });
     }
 };

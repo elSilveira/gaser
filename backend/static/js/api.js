@@ -2,275 +2,120 @@
  * API.js - Responsável pela comunicação com o backend
  */
 
-class API {
-    constructor(baseUrl = '') {
-        // URL base da API
-        this.baseUrl = baseUrl || window.location.origin;
-        
-        // Cache para resultados de API
-        this.cache = {
-            estados: null,
-            cidades: {},
-            bandeiras: null,
-            postosPorRegiao: {}
-        };
-        
-        // Timeout para requisições
-        this.timeout = 10000; // 10 segundos
-    }
+const api = {
+    // URL base da API
+    baseUrl: '/api',
     
-    /**
-     * Realiza uma requisição GET para a API
-     * @param {string} endpoint - Endpoint da API
-     * @param {Object} params - Parâmetros da requisição
-     * @returns {Promise} - Promise com o resultado da requisição
-     */
-    async get(endpoint, params = {}) {
+    // Obter postos próximos a uma localização
+    getStationsNearby: async function(lat, lon, radius = 5, fuel = 'gasolina', brand = 'todas', orderBy = 'distancia') {
         try {
-            // Construir URL com parâmetros
-            const url = new URL(`${this.baseUrl}${endpoint}`);
-            Object.keys(params).forEach(key => {
-                if (params[key] !== null && params[key] !== undefined) {
-                    url.searchParams.append(key, params[key]);
-                }
-            });
+            console.log(`Buscando postos próximos a ${lat},${lon} com raio de ${radius}km`);
+            const response = await fetch(`${this.baseUrl}/postos/proximos?lat=${lat}&lon=${lon}&raio=${radius}&combustivel=${fuel}&bandeira=${brand}&ordenar=${orderBy}`);
             
-            // Configurar timeout
-            const controller = new AbortController();
-            const timeoutId = setTimeout(() => controller.abort(), this.timeout);
-            
-            // Realizar requisição
-            const response = await fetch(url, {
-                method: 'GET',
-                headers: {
-                    'Accept': 'application/json'
-                },
-                signal: controller.signal
-            });
-            
-            // Limpar timeout
-            clearTimeout(timeoutId);
-            
-            // Verificar status
             if (!response.ok) {
-                throw new Error(`Erro na requisição: ${response.status} ${response.statusText}`);
+                throw new Error(`Erro na API: ${response.status}`);
             }
             
-            // Retornar dados
-            return await response.json();
+            const data = await response.json();
+            console.log(`Encontrados ${data.postos.length} postos`);
+            return data.postos;
         } catch (error) {
-            console.error(`Erro ao acessar ${endpoint}:`, error);
+            console.error('Erro ao buscar postos próximos:', error);
             
-            // Verificar se é erro de timeout
-            if (error.name === 'AbortError') {
-                throw new Error('Tempo limite excedido. Verifique sua conexão e tente novamente.');
+            // Fallback para dados simulados em caso de erro
+            console.log('Usando dados simulados como fallback');
+            if (typeof dadosSimulados !== 'undefined') {
+                return dadosSimulados.gerarPostosSimulados(lat, lon, 30);
             }
             
             throw error;
         }
-    }
+    },
     
-    /**
-     * Realiza uma requisição POST para a API
-     * @param {string} endpoint - Endpoint da API
-     * @param {Object} data - Dados a serem enviados
-     * @returns {Promise} - Promise com o resultado da requisição
-     */
-    async post(endpoint, data = {}) {
+    // Buscar postos por texto (endereço, cidade, etc)
+    searchStations: async function(query, fuel = 'gasolina', brand = 'todas', orderBy = 'distancia') {
         try {
-            // Configurar timeout
-            const controller = new AbortController();
-            const timeoutId = setTimeout(() => controller.abort(), this.timeout);
+            console.log(`Buscando postos com query "${query}"`);
+            const response = await fetch(`${this.baseUrl}/postos/busca?q=${encodeURIComponent(query)}&combustivel=${fuel}&bandeira=${brand}&ordenar=${orderBy}`);
             
-            // Realizar requisição
-            const response = await fetch(`${this.baseUrl}${endpoint}`, {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Accept': 'application/json'
-                },
-                body: JSON.stringify(data),
-                signal: controller.signal
-            });
-            
-            // Limpar timeout
-            clearTimeout(timeoutId);
-            
-            // Verificar status
             if (!response.ok) {
-                throw new Error(`Erro na requisição: ${response.status} ${response.statusText}`);
+                throw new Error(`Erro na API: ${response.status}`);
             }
             
-            // Retornar dados
-            return await response.json();
+            const data = await response.json();
+            console.log(`Encontrados ${data.postos.length} postos para "${query}"`);
+            return data.postos;
         } catch (error) {
-            console.error(`Erro ao acessar ${endpoint}:`, error);
+            console.error('Erro ao buscar postos por texto:', error);
             
-            // Verificar se é erro de timeout
-            if (error.name === 'AbortError') {
-                throw new Error('Tempo limite excedido. Verifique sua conexão e tente novamente.');
+            // Fallback para dados simulados em caso de erro
+            console.log('Usando dados simulados como fallback');
+            if (typeof dadosSimulados !== 'undefined') {
+                // Usar coordenadas de São Paulo como fallback
+                return dadosSimulados.gerarPostosSimulados(-23.5505, -46.6333, 30);
             }
             
             throw error;
         }
-    }
+    },
     
-    /**
-     * Obtém o status da API
-     * @returns {Promise} - Promise com o status da API
-     */
-    async getStatus() {
-        return this.get('/api/status');
-    }
-    
-    /**
-     * Obtém postos próximos a uma localização
-     * @param {number} lat - Latitude
-     * @param {number} lon - Longitude
-     * @param {number} raio - Raio de busca em km
-     * @param {number} limite - Limite de resultados
-     * @returns {Promise} - Promise com os postos próximos
-     */
-    async getPostosProximos(lat, lon, raio = 5, limite = 50) {
-        // Verificar se já temos no cache
-        const cacheKey = `${lat.toFixed(4)}_${lon.toFixed(4)}_${raio}_${limite}`;
-        if (this.cache.postosPorRegiao[cacheKey]) {
-            return this.cache.postosPorRegiao[cacheKey];
+    // Obter detalhes de um posto específico
+    getStationDetails: async function(stationId) {
+        try {
+            console.log(`Buscando detalhes do posto ${stationId}`);
+            const response = await fetch(`${this.baseUrl}/postos/${stationId}`);
+            
+            if (!response.ok) {
+                throw new Error(`Erro na API: ${response.status}`);
+            }
+            
+            const data = await response.json();
+            console.log(`Detalhes do posto ${stationId} obtidos com sucesso`);
+            return data.posto;
+        } catch (error) {
+            console.error(`Erro ao buscar detalhes do posto ${stationId}:`, error);
+            throw error;
         }
-        
-        // Buscar da API
-        const resultado = await this.get('/api/postos/proximos', {
-            lat,
-            lon,
-            raio,
-            limite
-        });
-        
-        // Armazenar no cache
-        this.cache.postosPorRegiao[cacheKey] = resultado;
-        
-        return resultado;
-    }
+    },
     
-    /**
-     * Obtém postos por filtros
-     * @param {Object} filtros - Filtros a serem aplicados
-     * @param {number} limite - Limite de resultados
-     * @returns {Promise} - Promise com os postos filtrados
-     */
-    async getPostosPorFiltros(filtros, limite = 100) {
-        return this.get('/api/postos/filtros', {
-            ...filtros,
-            limite
-        });
-    }
-    
-    /**
-     * Busca postos por texto
-     * @param {string} texto - Texto a ser buscado
-     * @param {number} limite - Limite de resultados
-     * @returns {Promise} - Promise com os postos encontrados
-     */
-    async buscarPostos(texto, limite = 50) {
-        return this.get('/api/postos/busca', {
-            q: texto,
-            limite
-        });
-    }
-    
-    /**
-     * Obtém postos em lote para múltiplos pontos
-     * @param {Array} pontos - Lista de pontos (lat, lon)
-     * @param {number} raio - Raio de busca em km
-     * @param {number} limite - Limite de resultados por ponto
-     * @returns {Promise} - Promise com os postos por ponto
-     */
-    async getPostosEmLote(pontos, raio = 5, limite = 20) {
-        return this.post('/api/postos/lote', {
-            pontos,
-            raio,
-            limite
-        });
-    }
-    
-    /**
-     * Obtém lista de estados
-     * @returns {Promise} - Promise com a lista de estados
-     */
-    async getEstados() {
-        // Verificar se já temos no cache
-        if (this.cache.estados) {
-            return this.cache.estados;
+    // Obter lista de bandeiras disponíveis
+    getBrands: async function() {
+        try {
+            console.log('Buscando lista de bandeiras');
+            const response = await fetch(`${this.baseUrl}/bandeiras`);
+            
+            if (!response.ok) {
+                throw new Error(`Erro na API: ${response.status}`);
+            }
+            
+            const data = await response.json();
+            console.log(`Obtidas ${data.bandeiras.length} bandeiras`);
+            return data.bandeiras;
+        } catch (error) {
+            console.error('Erro ao buscar bandeiras:', error);
+            
+            // Fallback para lista padrão de bandeiras
+            console.log('Usando lista padrão de bandeiras como fallback');
+            return ['Todas', 'Petrobras', 'Shell', 'Ipiranga', 'Raízen', 'Ale', 'Bandeira Branca'];
         }
-        
-        // Buscar da API
-        const resultado = await this.get('/api/estados');
-        
-        // Armazenar no cache
-        this.cache.estados = resultado;
-        
-        return resultado;
-    }
+    },
     
-    /**
-     * Obtém lista de cidades por estado
-     * @param {string} estado - Sigla do estado
-     * @returns {Promise} - Promise com a lista de cidades
-     */
-    async getCidadesPorEstado(estado) {
-        // Verificar se já temos no cache
-        if (this.cache.cidades[estado]) {
-            return this.cache.cidades[estado];
+    // Verificar status da API
+    checkStatus: async function() {
+        try {
+            console.log('Verificando status da API');
+            const response = await fetch(`${this.baseUrl}/status`);
+            
+            if (!response.ok) {
+                throw new Error(`Erro na API: ${response.status}`);
+            }
+            
+            const data = await response.json();
+            console.log('Status da API:', data);
+            return data;
+        } catch (error) {
+            console.error('Erro ao verificar status da API:', error);
+            return { status: 'error', message: error.message };
         }
-        
-        // Buscar da API
-        const resultado = await this.get(`/api/cidades/${estado}`);
-        
-        // Armazenar no cache
-        this.cache.cidades[estado] = resultado;
-        
-        return resultado;
     }
-    
-    /**
-     * Obtém lista de bandeiras
-     * @returns {Promise} - Promise com a lista de bandeiras
-     */
-    async getBandeiras() {
-        // Verificar se já temos no cache
-        if (this.cache.bandeiras) {
-            return this.cache.bandeiras;
-        }
-        
-        // Buscar da API
-        const resultado = await this.get('/api/bandeiras');
-        
-        // Armazenar no cache
-        this.cache.bandeiras = resultado;
-        
-        return resultado;
-    }
-    
-    /**
-     * Obtém metadados da API
-     * @returns {Promise} - Promise com os metadados
-     */
-    async getMetadados() {
-        return this.get('/api/metadados');
-    }
-    
-    /**
-     * Limpa o cache da API
-     */
-    limparCache() {
-        this.cache = {
-            estados: null,
-            cidades: {},
-            bandeiras: null,
-            postosPorRegiao: {}
-        };
-    }
-}
-
-// Exportar instância única
-const api = new API();
+};
