@@ -1316,3 +1316,5 @@
 2025-05-18 04:52:29,337 - werkzeug - INFO - 10.130.234.1 - - [18/May/2025 04:52:29] "HEAD / HTTP/1.1" 200 -
 2025-05-18 04:52:29,343 - werkzeug - INFO - 10.130.234.1 - - [18/May/2025 04:52:29] "GET / HTTP/1.1" 200 -
 >>>>>>> 4623d8c (a)
+2025-05-18 21:03:30,400 - backend_flask - INFO - Cache inicializado com 5009 postos
+2025-05-18 21:03:30,476 - backend_flask - INFO - Cache inicializado com 5009 postos
